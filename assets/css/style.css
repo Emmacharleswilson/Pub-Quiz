@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(48, 48, 48);
 }
 
 .heading {
@@ -12,8 +13,11 @@
     text-align: center;
     background-color: gray;
     font-family: "Bungee", sans-serif;
-    letter-spacing: 1px;
     font-size: 240%;
+    letter-spacing: 4px;
+    color: rgb(213, 216, 24);
+    text-shadow: 0px 0px 3px black;
+
 }
 
 #sidebar {
@@ -21,7 +25,7 @@
     width: 30%;
     height: 100%;
     left: -30%;
-    background-color: black;
+    background-color: rgb(48, 48, 48);
 }
 
 #sidebar li {
@@ -40,16 +44,33 @@
     position: absolute;
     left: 105%;
     top: 20px;
+    background-color: gray;
+    color: rgb(213, 216, 24);
 }
 
 .toggle-btn span {
     display: block;
-    background-color: black;
     width: 40px;
     height: 7px;
     margin: 6px;
+    background-color: rgb(191, 194, 0);
 }
 
 #sidebar.active {
     left: 0;
+}
+
+.sub-heading {
+    font-family: "Oswald", sans-serif;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 280%;
+    color: rgb(255, 25, 0);
+    letter-spacing: 2px;
+}
+
+.gif {
+    padding-left: 520px;
+    margin-top: -5px;
+    width: 30%;
 }

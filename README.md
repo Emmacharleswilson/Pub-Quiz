@@ -1,108 +1,321 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pub Quiz
 
-Welcome USER_NAME,
+![](assets/documents/images/am_i_responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the website here]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This website has been produced to provide a platform for a fun and educational game designed for agers 12+. It offers questions in a quiz format to test the users general knowledge.
 
-## Gitpod Reminders
+In addition to the home page this website also features:
+- The 'Quiz' page
+- A 'Rules' page
+- A 'High Scores' page
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The business goals of the website are:
+1. To provide an educational learning platform for people agerd 12+.
+2. To provide engaging content so that users enjoy using this quiz.
+3. To create an easy to navigate website to ensure that it is user friendly.
 
-`python3 -m http.server`
+The user goals of this website are:
+1. To gain general knowledge.
+2. To test my general knowledge using the quiz.
+3. To improve my previous scores & therefore my overall knowledge.
 
-A blue button should appear to click: _Make Public_,
+--- 
+## UX
 
-Another blue button should appear to click: _Open Browser_.
+### Strategy
+Using the core UX principles I first started with Strategy, thinking about the target audience for this quiz & the features they would want.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The target audience for 'Pub Quiz' are:
+- People aged 12+
+- People who are interested in Pub Quizzes.
+- People who want to improve their general knowledge. 
 
-A blue button should appear to click: _Make Public_,
+Features that they would need to be included:
+- A fun & interactive quiz
+- The ability to track their high scores so they can see if they're improving
 
-Another blue button should appear to click: _Open Browser_.
+It was imperative to me that this website was simple & easy to use to ensure that the users had an enjoyable experience; therefore each page has a limited amount of information, written in simple language. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The website has been designed to work well on desktops & tablets as well, to ensure that no matter the device the user has a positive user experience.
 
-To log into the Heroku toolbelt CLI:
+### Scope
+To achieve the desired user and business goals this website will include the following:
+1. A landing page with:
+- A `H1` heading
+- A toggle menu
+- A `H2` tagline
+- An animated picture
+- Start game button
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+2. Rules Page:
+- A `H1` heading
+- A toggle menu
+- A list of clear rules
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+3. Quiz Page:
+- A `H1` heading
+- A toggle menu 
+- Start game button
+- Question progress bar  
+- A score count 
+- Quiz qustions 
+- Answer options 
 
-------
+4. End of quiz page:
+- A `H1` heading 
+- A toggle menu
+- Form to submit name and high score
+- Control buttons
 
-## Release History
+5. High Scores page:
+- A `H1` heading
+- A toggle menu
+- List of top 5 high scores
+- Home button
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Structure
+This is a multi-page website to keep the amount of information on each page limited and easy to digest; the rules, game and high scores are all separated so that any one using the website can find what they want easily.
+Each page is designed with simplicity in mind, with a drop down toggle menu and an H1 element and then the relevant content centred below; this simplicity will allow for users to feel comfortable using and navigating each page. 
+The quiz itself has a question, and four possible answers to pick from. This layout will be responsive so that it isn't too squashed when being viewed on a smaller screen.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Skeleton
+[View wireframes here](assets/documents/wiresframes.pdf) - please note the actual website differs slightly from these wireframes.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Whilst building the website I opted to change the type of quiz that this website would feature, I went for a capital's of the world quiz as this would allow me to dynamically create the question and answer buttons using JavaScript. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+I also decided to add a next button instead of an alert as I felt this would provide the user with a better experience, as having to click out of the alert could be annoying for some.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Furthermore, I decided to add a responsive navbar to further enhance the user experience when viewing the website on a mobile phone.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Surface
+I chose to use a background colour of 'Dodger Blue', I think blue has a direct correlation with images of the earth and our planet and it's for this reason I chose it, I also wanted something simple so as not to detract from any of the content. 
+On the landing page, there is an animated globe that zooms in and out upon the mouse being scrolled, this interactive element provides something fun for the user straight away.
+Using google fonts I chose Yogomi as I felt it had a childlike handwriting feel to it and this will be used for all text elements on the website.
 
 ---
+## Features 
 
-Happy coding!
+### All pages
+#### *Navbar*
+The navbar features on all pages & is fully responsive, on screens smaller than 768px it collapses in a hamburger icon which when clicked opens the menu with links in a vertical list. I felt this simple way of displaying the menu on all screen sizes would be intuitive and provide all users with a positive user experience.
+
+### *Title* 
+All page titles are `H1` elements, they are centred and large in size so there is no ambiguity as to which page the user is on.
+
+### *Buttons*
+All of the navigation buttons throughout the site are styled in the same way & they change once the user hovers over them; this continuity was intentional as I want all users to feel comfortable with this website & its features and be able to use it with ease.
+
+### Home page
+#### *Animated Globe*
+The animated globe on the home page was added to provide a fun interactive element as soon as users entered the site, as the target audience is children I wanted to create a positive reaction instantaneously so that users would feel encouraged to continue through the site.
+
+#### *Animated heading*
+In addition to the globe I chose to animate the heading to continue that feeling of fun, I felt this would entice users over a static heading.
+
+#### *To the Quiz button*
+After asking my family to test the quiz it was highlighted to me that having a button to take you straight to the quiz might make it easier for users to navigate and so I added this button. It is styled as all of the other buttons are throughout the site.
+
+### Rules
+#### *Rules list*
+The list of rules is an `ol` element, it has been styled to remain in the centre of the screen to allow for better responsivity.
+
+### Quiz
+#### *Game controls*
+These buttons follow the same style rules as the other buttons, they just appear on the screen at different times depending on what the user clicks. I wanted to give the user control over the quiz process and also to be able to quit if required.
+
+#### *Quiz elements*
+The quiz is made up of the following: 
+- Two progress items (question & score counts), which remain at the top of the quiz on opposite sides of the page so the user can see their progress.
+- Question, this is dynamically created each time a new question is generated but always remains in the centre of the screen.
+- Answer buttons, these are styled in opposite colours to the other buttons featured. They have been designed in this way to create a clear difference so that users aren't confused.
+
+#### *Sound toggle button*
+After adding the sound effects for a right/wrong answer I decided that to further enhance the user experience there should be a control for this on the page. Using a favicon mute & sound icon (that change when clicked), I added a JavaScript function to mute or unmute the sound. 
+
+### End page
+#### *Blinking title*
+I wanted to animate this heading in a familiar 'game' way as I felt this would further engage the user and clearly indicate the game is over.
+
+#### *Save score form*
+For the user to save their score to the High Scores page they need to input their username and click save, this is done using a form made up of a text input and submit button. 
+
+#### *Nav buttons*
+Unlike the other pages, this page doesn't feature a navbar as I felt buttons directly under the form would indicate to the user they needed to do something to move on from this page.
+
+### High Scores
+#### *High Scores Leaderboard*
+The High Scores Leaderboard is an `ul` element, it has been styled to remain in the centre of the screen to allow for better responsivity. The scores in this list are generated in `high-scores.js` using local storage.
+
+---
+## Technologies Used
+I have used several technologies that have enabled this design to work:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project. 
+- [JavaScript](https://www.javascript.com/)
+    - Used for the responsive navbar, animated heading, quiz functionality & sound effects and high-scores leaderboard.
+- [Jquery](https://jquery.com/)
+    - This library has been used occassionally in my JavaScript code, specifically in my checkAnswer function in quiz.js.
+- [Planetary JS](http://planetaryjs.com/examples/rotating.html)
+    - Library used to render the animated globe on the landing page. 
+- [Google Fonts](https://fonts.google.com/)
+    - Used to obtain the fonts linked in the header, fonts used were Playfair and Cookie
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the icons used on the high scores and rules pages.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [GitHub](https://github.com/)
+    - Used to store code for the project after being pushed.
+- [Git](https://git-scm.com/)
+    - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development environment.
+- [Balsamiq](https://balsamiq.com/)
+    - Used to create the wireframes for the project.
+- [AutoPrefixer](https://autoprefixer.github.io/)
+    - Used to parse my CSS and ass vendor prefixes.
+- [Grammarly](https://www.grammarly.com/)
+    - Used to fix the grammar errors across the project.
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+    - Used to detect overflow of elements, which allowed me to quickly debug any issues.
+- [Coloors](https://coolors.co/)
+    - Used to create a colour palette for the design.
+- [Favicon.io](https://favicon.io/)
+    - Used to create favicon's for my website
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+    - Allowed me to test the colour contrast of my webpage.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate all HTML code written and used in this webpage.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate all CSS code written and used in this webpage.
+- [Freeformatter CSS Beautify](https://www.freeformatter.com/css-beautifier.html)
+    - Used to accurately format my CSS code.
+- [Freeformatter HTML Formatter](https://www.freeformatter.com/html-formatter.html)
+    - Used to accurately format my HTML code.
+- [AmIResponsive](http://ami.responsivedesign.is/)
+    - Used to generate responsive image used in README file.
+- [Wave](https://wave.webaim.org/)
+    - Used to test the accessibility of the website.
+---
+## Testing
+
+### User Stories 
+1. **As a first time user, I want to be able to navigate my way easily throughout the website.**
+The navbar being placed right at the gives the user a clear indication of how to navigate through the website, it is placed in the same place on every page to provide continuity for the user.
+![](assets/documents/images/navigation_user_story.png)
+
+2. **As a first time user, I want to learn about new capital cities around the world by playing the quiz.**
+As part of the quiz design, I added both visual & sound cues so that the user will know when they have answered a question correctly. This instant feedback will allow them to learn as they play the quiz.
+Furthermore, the quiz features every country in the world and so there is a vast opportunity to learn about countries they may not have known about before.
+![](assets/documents/images/correct_answer_userstory2.png)
+![](assets/documents/images/incorrect_answer_userstory2.png)
+
+3. **As a recurring user, I want to track my scores to see if I've made the high scores leaderboard.**
+Upon completing the quiz the user is taken to the end page, where they are able to save their score against their username, the top 5 scores saved to local storage are then displayed on the high scores page:
+![](assets/documents/images/high_scores_testing.png)
+
+### Lighthouse
+I used the Lighthouse report on Google Dev Tools to test my websites performance, accessibility and best practices, my first report has an SEO score of under 90, after adding more detailed `meta-keywords` & `meta-description` all of my scores are now above 90:
+![](assets/documents/images/lighthouse_report.png)
+
+### Known bugs and fixes
+Throughout the entire project, I have used Google Chrome Developer Tools to debug any issues with styling and alignment; this tool enabled me to change things and see the effect this had immediately. The use of the console whilst in dev tools was also incredibly helpful as I was able to utilise this to test my JavaScript code, using `console.log()` to check that my functions were being called correctly and that the desired information was going to be displayed. This was pivotal in designing the quiz as I needed to have access to the information of the various elements in order to be able to programme the quiz correctly.
+
+I tested the quizzes functionality by 'playing' it myself, to ensure the user experience was positive and that everything was working as it should. One key bug that I resolved was the duplication of answer options, I had written a `do-while` loop in the generateQuestion function which I thought had fixed the problem but whilst testing I found the occasional duplication occurred. For this reason, I added two more `if` statements to the same function to prevent this from occurring. Using `console.log()` I was able to prove that this implementation worked and the bug had been resolved.
+
+### Validation: HTML, CSS and JavaScript
+Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code, initially there were errors as you can see below:
+![](assets/documents/images/jshint_errors.png)
+
+However, I implemented all changes to ensure my code passed with no errors:
+![](assets/documents/images/jshint_no_errors.png)
+
+In addition to Jshint, I used Jigsaw to validate my HTML and CSS which both passed with errors initially:
+![](assets/documents/images/css_validation_with_errors.png)
+![](assets/documents/images/html_validation_with_errors.png)
+
+Which both now pass with no errors: 
+![](assets/documents/images/css_validation_no_errors.png)
+![](assets/documents/images/html_validation_no_errors.png)
+
+To further ensure that my website is fully accessible I used WAVE and color contrast - initially, I had some errors with mislabelling which I was able to resolve:
+![](assets/documents/images/wave_report.png)
+
+My background colour also failed the contrast report so I changed it to a darker shade of blue and now this report has no errors:
+![](assets/documents/images/contrast_report.png)
+
+In addition to testing that I conducted, I got my friends, family & fellow students to test the website on their phones/laptops/tablets/desktops and provide feedback on anything they felt didn't work or look right, this enabled me to debug any issues that I might not have otherwise found.
+
+---
+## Deployment
+I deployed this website by using GitPages and following the below steps:
+
+### GitHub pages deployment
+
+1. Log in to GitHub
+2. In your Repository section, select the project repository that you want to deploy
+3. In the menu located at the top of this section, click 'Settings'
+4. Select 'Pages' on the left-hand menu - this is around halfway down
+5. In the source section, select branch 'Master' and save
+6. The page is then given a site URL which you will see above the source section, it will look like the following:
+
+Please note it can take a while for this link to become fully active.
+
+### Forking the GitHub Repository
+
+If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
+
+1. Find the relevant GitHub repository
+2. In the top right corner of the page, click the Fork button (under your account)
+3. Your repository has now been 'Forked' and you have a copy to work on
+
+### Cloning the GitHub Repository
+
+Cloning your repository will allow you to download a local version of the repository to be worked on. Cloning can also be a great way to backup your work.
+
+1. Find the relevant GitHub repository
+2. Press the arrow on the Code button
+3. Copy the link that is shown in the drop-down
+4. Now open Gitpod & select the directory location where you would like the clone created
+5. In the terminal type 'git clone' & then paste the link you copied in GitHub
+6. Press enter and your local clone will be created.
+---
+## Credits
+I have used several resources to produce this website, where code has been used found from another source this is credited as a comment within the HTML, CSS and JS files.
+
+The following websites/articles were used for research and guidance:
+
+[Stack Overflow](https://stackoverflow.com/)
+
+[JavaScript do/while loop](https://www.javascripttutorial.net/javascript-do-while/)
+
+[Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+
+[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+
+I obtained code from the following resources:
+
+[Blinking Game Over heading](https://www.youtube.com/watch?v=9iDm3QiIEzU)
+
+[Responsive Navbar](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci)
+
+[Vanilla JavaScript quiz tutorial, used to save high scores, increment score and question count](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+
+[Animated heading code](https://tobiasahlin.com/moving-letters/#6)
+
+[Planetary JS, used for animated & interactive globe](http://planetaryjs.com/examples/rotating.html)
+
+The below sources were used for content: 
+
+[Countries and their capital cities](https://www.countries-ofthe-world.com/capitals-of-the-world.html)
+
+[Sound effects obtained from Zapsplat](https://www.zapsplat.com)
+
+---
+## Acknowledgements
+
+I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project and my fellow students Harry Dhillon and Jack Crosbie for their support & feedback.

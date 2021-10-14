@@ -1,8 +1,8 @@
 #game {
     font-family: "Oswald", sans-serif;
     padding-top: 690px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 body {
     color: white;
@@ -19,19 +19,22 @@ h2 {
     margin-bottom: 4rem;
 }
 
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
     font-size: 130%;
-    min-width: 60rem;
+    min-width: 50rem;
     height: 70px;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0 1.5rem 0 rgb(255, 0, 0);
     transform: scale(1.02);
     transform: transform 100ms;
 }
@@ -40,13 +43,13 @@ h2 {
     padding-top: 20px;
     padding-left: 20px;
     color: white;
-    background-color: rgb(225, 115, 0);
+    background-color: rgb(255, 115, 0);
 }
 
 .choice-text {
     padding-top: 20px;
     padding-left: 30px;
-    background-color: rgb(225, 115, 0);
+    background-color: rgb(255, 115, 0);
 }
 
 .choice-text {
@@ -54,11 +57,47 @@ h2 {
     width: 100%;
 }
 
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+/* heads up **/
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
 .hud-item {
-    font-size: 120%;
+    font-size: 2rem;
 }
 
 .hud-main-text {
-    font-size: 150%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#progressBar {
+    width: 10rem;
+    height: 1.5rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 1rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(11,223,36);
+    width: 0%;
 }
 

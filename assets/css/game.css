@@ -1,4 +1,30 @@
 #game {
     font-family: "Oswald", sans-serif;
-    margin-top: 500px;
+    padding-top: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+body {
+    color: white;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background-color: blue;
+    font-size: 110%;
+    min-width: 80rem;
 }

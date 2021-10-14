@@ -164,6 +164,28 @@
     transform: none;
 }
 
+/* rules **/
+#rules {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 160%;
+    padding-left: 320px;
+    padding-right: 320px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+#rules li {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+#good-luck {
+    font-size: 110%;
+}
+
 /** media query's **/
 
 @media screen and (max-width: 600px) {

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,14 +20,13 @@
             document.getElementById('sidebar').classList.toggle('active')
         }
     </script>
-
 </head>
-<!-- heading and toggle menu -->
 
 <body>
     <a href="index.html">
-    <h1 class="heading">Pub Quiz</h1>
-    </a>
+        <h1 class="heading">Pub Quiz</h1>
+        </a>
+
     <div id="sidebar" onclick="togglemenu()">
         <div class="toggle-btn">
             <span></span>
@@ -43,22 +41,13 @@
                 <a href="quiz.html" class="non-active">Quiz</a>
             </li>
             <li>
-                <a href="highscores.html" class="non-active">High Scores</a>
+                <a href="highscores.html" class="active">High Scores</a>
             </li>
         </ul>
     </div>
     <!-- sub heading and gif -->
     <div>
-        <h2 class="sub-heading">Test your General Knowledge</h2>
-    </div>
-    <div class="gif.container" style="text-align: center;">
-        <img src="assets/images/beer.webp" alt="beer glasses" id="gif">
-    </div>
-    <div class="container">
-        <div id="home" class="flex-column flex-center">
-            <a href="/game.html" class="btn">Start Game</a>
-        </div>
+        <h2 class="sub-heading">High Scores</h2>
     </div>
 </body>
-
 </html>

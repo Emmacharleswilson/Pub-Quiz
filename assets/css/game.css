@@ -1,8 +1,6 @@
 #game {
     font-family: "Oswald", sans-serif;
     padding-top: 690px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 body {
     color: white;
@@ -29,7 +27,7 @@ h3 {
     width: 100%;
     border-radius: 4px;
     font-size: 130%;
-    min-width: 50rem;
+    min-width: 60rem;
     height: 70px;
 }
 
@@ -99,5 +97,12 @@ h3 {
     height: 100%;
     background: rgb(11,223,36);
     width: 0%;
+}
+
+@media screen and (max-width: 980px){
+    .choice-container {
+        min-width: 60%;
+    }
+    
 }
 

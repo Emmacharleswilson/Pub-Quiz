@@ -4,7 +4,7 @@
 
 [View the website here]()
 
-This website has been produced to provide a platform for a fun and educational game designed for agers 12+. It offers questions in a quiz format to test the users general knowledge.
+This website has been produced to provide a platform for a fun and educational game designed for agers 16+. It offers questions in a quiz format to test the users general knowledge.
 
 In addition to the home page this website also features:
 - The 'Quiz' page
@@ -28,7 +28,7 @@ The user goals of this website are:
 Using the core UX principles I first started with Strategy, thinking about the target audience for this quiz & the features they would want.
 
 The target audience for 'Pub Quiz' are:
-- People aged 12+
+- People aged 16+
 - People who are interested in Pub Quizzes.
 - People who want to improve their general knowledge. 
 

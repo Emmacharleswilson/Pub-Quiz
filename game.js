@@ -83,7 +83,7 @@ let questions = [
         answer: 3,
     },
     {
-        question: 'What is the most sold floavour of Walkers crisps?',
+        question: 'What is the most sold flavour of Walkers crisps?',
         choice1: 'Prawn Cocktail',
         choice2: 'Cheese and Onion',
         choice3: 'Ready Salted',

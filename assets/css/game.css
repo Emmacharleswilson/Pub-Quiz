@@ -1,6 +1,8 @@
+
+
 #game {
     font-family: "Oswald", sans-serif;
-    padding-top: 690px;
+    padding-top: 700px;
 }
 body {
     color: white;
@@ -13,21 +15,24 @@ h1 {
 }
 
 h2 {
-    font-size: 4.2rem;
+    font-size: 4.3rem;
     margin-bottom: 4rem;
+    max-width: 30rem;
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
+    margin-top: -40px;
+    max-width: 30rem;
 }
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 4px;
     font-size: 130%;
-    min-width: 60rem;
+    min-width: 30rem;
+    max-width: 30rem;
     height: 70px;
 }
 
@@ -72,31 +77,16 @@ h3 {
 
 .hud-prefix {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .hud-item {
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .hud-main-text {
     font-size: 2rem;
     text-align: center;
-}
-
-#progressBar {
-    width: 10rem;
-    height: 1.5rem;
-    border: 0.2rem solid rgb(11,223,36);
-    margin-top: 1rem;
-    border-radius: 50px;
-    overflow: hidden;
-}
-
-#progressBarFull {
-    height: 100%;
-    background: rgb(11,223,36);
-    width: 0%;
 }
 
 @media screen and (max-width: 980px){

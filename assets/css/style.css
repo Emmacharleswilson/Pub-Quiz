@@ -184,13 +184,23 @@
     margin-top: -5px;
 }
 
+#finalScores {
+    font-family: "Oswald", sans-serif;
+    font-size: 300%;
+    color: rgb(255, 115, 0);
+    letter-spacing: 1px;
+    margin-top: 150px;
+}
 body {
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 #highScoresList {
+    font-family: "Oswald", sans-serif;
+    font-size: 120%;
     list-style: none;
     margin-bottom: 4rem;
+    margin-top: 4rem;
 }
 
 .high-score {

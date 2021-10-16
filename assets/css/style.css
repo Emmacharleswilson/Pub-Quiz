@@ -161,6 +161,13 @@
     border-radius: 10px;
 }
 
+/* save score button **/
+
+#saveScoreBtn {
+    width: 260px;
+    height: 75px;
+}
+
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1rem 0 rgba(255, 251, 0, 0.6);

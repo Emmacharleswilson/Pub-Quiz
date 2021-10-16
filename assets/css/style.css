@@ -110,6 +110,16 @@
     padding: 2rem;
 }
 
+#end {
+    margin-top: 720px;
+}
+
+#end-text {
+    font-family: "Oswald", sans-serif;
+    font-size: 260%;
+    margin-top: -80px;
+    text-align: center;
+}
 /* start game button **/
 
 .flex-column {

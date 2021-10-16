@@ -155,11 +155,11 @@ input::placeholder {
     font-size: 200%;
     margin-top: -80px;
     text-align: center;
+    color: white;
 }
 
 #finalScore {
     font-family: "Oswald", sans-serif;
-    font-size: 400%;
     padding-bottom: 15px;
 }
 

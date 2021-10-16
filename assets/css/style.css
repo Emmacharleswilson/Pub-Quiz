@@ -178,15 +178,14 @@
 
 #finalScore {
     font-family: "Oswald", sans-serif;
-    font-size: 260%;
+    font-size: 350%;
     color: rgb(255, 115, 0);
-    margin-top: 150px;
     letter-spacing: 1px;
-    
+    margin-top: -5px;
 }
 
 body {
-    color: white;
+    color:white;
 }
 
 #highScoresList {

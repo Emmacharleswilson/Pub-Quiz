@@ -98,28 +98,6 @@
 #gif {
     width: 27%;
 }
-
-.container {
-    width: 100vw;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-#end {
-    margin-top: 720px;
-}
-
-#end-text {
-    font-family: "Oswald", sans-serif;
-    font-size: 260%;
-    margin-top: -80px;
-    text-align: center;
-}
 /* start game button **/
 
 .flex-column {
@@ -146,11 +124,11 @@
 
 .btn {
     font-family: "Oswald", sans-serif;
-    font-size: 260%;
+    font-size: 200%;
     letter-spacing: 1px;
     padding: 40px;
-    padding-top: 5px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
     width: 220px;
     height: 20px;
     text-align: center;
@@ -159,13 +137,6 @@
     color: rgb(224, 228, 0);
     background: linear-gradient(90deg, rgb(225, 0, 0) 0%, rgb(209, 0, 0) 100%);
     border-radius: 10px;
-}
-
-/* save score button **/
-
-#saveScoreBtn {
-    width: 260px;
-    height: 75px;
 }
 
 .btn:hover {

@@ -157,7 +157,7 @@
 
 #game {
     font-family: "Oswald", sans-serif;
-    padding-top: 700px;
+    padding-top: 750px;
 }
 body {
     color: white;
@@ -177,8 +177,8 @@ h2 {
 h3 {
     font-size: 1.7rem;
     margin-bottom: 1rem;
-    margin-top: -40px;
-    max-width: 30rem;
+    min-width: 35rem;
+    max-width: 35rem;
 }
 .choice-container {
     display: flex;
@@ -355,7 +355,7 @@ input::placeholder {
     font-size: 260%;
     letter-spacing: 1px;
     color: rgb(255, 115, 0);
-    margin-top: 450px;
+    margin-top: 650px;
 }
 body {
     color:rgb(255, 255, 255);
@@ -372,6 +372,25 @@ body {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
+
+/** footer **/
+
+#footer {
+    bottom: 10px;
+    height: 30px;
+    width: 100%;
+    font-family: "Bungee", sans-serif;
+    display: flex;
+    justify-content: center;
+
+} 
+
+#footer h3 {
+    font-size: 100%;
+    letter-spacing: 1px;
+    color: rgb(255, 115, 0);
+}
+    
 
 
 /** media query's **/

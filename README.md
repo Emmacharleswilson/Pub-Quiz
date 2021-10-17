@@ -90,7 +90,11 @@ For the title I chose a bright yellow to make sure this was clear to read and bo
 
 For the subheadings and footer I chose orange to compliment the other colour's used. 
 
-For any content text i chose the colour white to really make this stand out and easy to read. 
+For any content text I chose the colour white to really make this stand out and easy to read. 
+
+For any buttons, I chose to highlight these is red to draw the user to them, and the text within them yellow. 
+
+I feel that this colour palet is very gender nutral, highlights the element's that are important to the user which makes navigating the website easier. 
 
 ---
 ## Features 

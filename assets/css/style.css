@@ -5,12 +5,11 @@
 }
 
 .Site {
-    display: flex;
     min-height: 100vh;
     flex-direction: column;
   }
   
-  .Site-content {
+.Site-content {
     flex: 1;
   }
 
@@ -386,19 +385,22 @@ body {
 /** footer **/
 
 #footer {
-    bottom: 10px;
-    height: 30px;
+    position: absolute;
+    bottom: 0;
+    height: 1px;
     width: 100%;
     font-family: "Bungee", sans-serif;
     display: flex;
     justify-content: center;
-
+    text-align: center;
 } 
 
 #footer h3 {
     font-size: 100%;
     letter-spacing: 1px;
     color: rgb(255, 115, 0);
+    margin-top: 40px;
+    height: 80px;
 }
     
 

@@ -15,6 +15,23 @@
 
 /* headings and toggle menu **/
 
+#menu {
+    font-family: "Bungee", sans-serif;
+    font-size: 100%;
+    position: fixed;
+    padding-top: 30px;
+    background-color: grey;
+    padding-left: 30px;
+}
+
+#menu li {
+    display: inline;
+    letter-spacing: 1px;
+    padding-right: 20px;
+    background-color: grey;
+}
+
+
 .heading {
     position: fixed;
     height: 60px;
@@ -31,32 +48,6 @@
 
 }
 
-#sidebar {
-    position: fixed;
-    width: 30%;
-    height: 100%;
-    left: -30%;
-    background-color: rgb(48, 48, 48);
-}
-
-#sidebar li {
-    color: white;
-    font-size: 30px;
-    padding: 30px;
-    border-bottom: 1px solid gray;
-    text-align: center;
-    list-style: none;
-    font-family: "Bungee", sans-serif;
-    font-size: 115%;
-    letter-spacing: 2px;
-}
-
-#sidebar li:hover {
-    cursor: pointer;
-    transition: transform 150ms;
-    transform: scale(1.02);
-}
-
 .active {
     color: rgb(255, 115, 0);
 }
@@ -65,31 +56,7 @@
     color: white;
 }
 
-.toggle-btn {
-    position: absolute;
-    left: 105%;
-    top: 20px;
-    background-color: gray;
 
-}
-
-.toggle-btn span {
-    display: block;
-    width: 40px;
-    height: 7px;
-    margin: 6px;
-    background-color: rgb(251, 255, 0);
-}
-
-.toggle-btn:hover {
-    cursor: pointer;
-    transition: transform 150ms;
-    transform: scale(1.1);
-}
-
-#sidebar.active {
-    left: 0;
-}
 
 /* sub heading **/
 
@@ -148,6 +115,7 @@
     height: 20px;
     text-align: center;
     margin-bottom: 1rem;
+    margin-top: -5px;
     text-decoration: none;
     color: rgb(224, 228, 0);
     background: linear-gradient(90deg, rgb(225, 0, 0) 0%, rgb(209, 0, 0) 100%);
@@ -391,6 +359,24 @@ body {
 
 /** footer **/
 
+#home-page-footer {
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    font-family: "Bungee", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#home-page-footer h3 {
+    font-size: 80%;
+    letter-spacing: 1px;
+    color: rgb(255, 115, 0);
+    margin-top: 40px;
+    height: 80px;
+}
+
 #footer {
     position: absolute;
     bottom: 0;
@@ -403,7 +389,7 @@ body {
 } 
 
 #footer h3 {
-    font-size: 100%;
+    font-size: 80%;
     letter-spacing: 1px;
     color: rgb(255, 115, 0);
     margin-top: 40px;

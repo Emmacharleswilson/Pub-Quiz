@@ -20,7 +20,7 @@
     height: 60px;
     width: 100%;
     padding-top: 20px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     text-align: center;
     background-color: gray;
     font-family: "Bungee", sans-serif;
@@ -95,18 +95,23 @@
 
 .sub-heading {
     font-family: "Oswald", sans-serif;
-    padding-top: 140px;
+    padding-top: 40px;
     text-align: center;
     font-size: 260%;
     color: rgb(255, 115, 0);
     letter-spacing: 2px;
 }
 
+.sub-heading h2 {
+    font-size: 60%;
+    margin-bottom: -20px;
+}
+
 /* beer glasses gif **/
 
 #gif {
     width: 27%;
-    margin-top: -40px;
+    margin-top: 150px;
 }
 /* start game button **/
 

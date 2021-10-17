@@ -81,18 +81,16 @@ Each page is designed with simplicity in mind, with a drop down toggle menu and 
 The quiz itself has a question, and four possible answers to pick from. This layout will be responsive so that it isn't too squashed when being viewed on a smaller screen.
 
 ### Skeleton
-[View wireframes here](assets/documents/wiresframes.pdf) - please note the actual website differs slightly from these wireframes.
-
-Whilst building the website I opted to change the type of quiz that this website would feature, I went for a capital's of the world quiz as this would allow me to dynamically create the question and answer buttons using JavaScript. 
-
-I also decided to add a next button instead of an alert as I felt this would provide the user with a better experience, as having to click out of the alert could be annoying for some.
-
-Furthermore, I decided to add a responsive navbar to further enhance the user experience when viewing the website on a mobile phone.
+[View wireframes here](assets/documents/wiresframes.pdf) 
 
 ### Surface
-I chose to use a background colour of 'Dodger Blue', I think blue has a direct correlation with images of the earth and our planet and it's for this reason I chose it, I also wanted something simple so as not to detract from any of the content. 
-On the landing page, there is an animated globe that zooms in and out upon the mouse being scrolled, this interactive element provides something fun for the user straight away.
-Using google fonts I chose Yogomi as I felt it had a childlike handwriting feel to it and this will be used for all text elements on the website.
+I chose to use a background colour of dark Slate Grey, while keeping the header a light grey to highlight this element.
+
+For the title I chose a bright yellow to make sure this was clear to read and bold. 
+
+For the subheadings and footer I chose orange to compliment the other colour's used. 
+
+For any content text i chose the colour white to really make this stand out and easy to read. 
 
 ---
 ## Features 

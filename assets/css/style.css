@@ -4,6 +4,16 @@
     background-color: rgb(48, 48, 48);
 }
 
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .Site-content {
+    flex: 1;
+  }
+
 /* headings and toggle menu **/
 
 .heading {
@@ -340,7 +350,7 @@ input::placeholder {
     font-size: 110%;
 }
 
-/* high scores css **/
+/** high scores css **/
 
 #finalScore {
     font-family: "Oswald", sans-serif;

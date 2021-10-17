@@ -152,7 +152,173 @@
     transform: none;
 }
 
-/* rules **/
+/** game starts here */
+
+#game {
+    font-family: "Oswald", sans-serif;
+    padding-top: 700px;
+}
+body {
+    color: white;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 4.3rem;
+    margin-bottom: 4rem;
+    max-width: 30rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    margin-top: -40px;
+    max-width: 30rem;
+}
+.choice-container {
+    display: flex;
+    color: #fafafa;
+    width: 100%;
+    min-width: 70%;
+    border-radius: 2px;
+    border: 0.1rem solid #fdd835;
+    margin-bottom: 1rem;
+
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding-top: 17px;
+    padding-left: 20px;
+    color: white;
+}
+
+.choice-text {
+    font-size: 130%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    
+
+}
+
+.choice-text {
+    
+    width: 100%;
+}
+
+.correct {
+    border: 0.2rem solid #01ff38;
+}
+
+.incorrect {
+    border: 0.2rem solid red;
+}
+
+/* heads up **/
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.hud-item {
+    font-size: 1.2rem;
+}
+
+.hud-main-text {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* end page **/
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(251, 255, 0, 0.568);
+}
+
+input::placeholder {
+    color: rgb(185, 185, 185);
+}
+
+#username {
+    margin-bottom: 2rem;
+    width: 300px;
+    height: 20px;
+    outline: none;
+    margin-top: -40px;
+    color: rgb(214, 214, 214);
+    font-size: 150%;
+}
+
+/* save score button **/
+
+#saveScoreBtn {
+    width: 300px;
+    height: 70px;
+    border: none;
+}
+
+/* score text **/
+
+.container {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#end {
+    margin-top: 720px;
+}
+
+#end-text {
+    font-family: "Oswald", sans-serif;
+    font-size: 200%;
+    margin-top: -80px;
+    text-align: center;
+    color: white;
+}
+
+#finalScore {
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 15px;
+}
+
+/* rules page **/
+
 #rules {
     font-family: "Oswald", sans-serif;
     color: white;
@@ -215,4 +381,11 @@ body {
         width: 50%;
     }
 
+}
+
+@media screen and (max-width: 980px){
+    .choice-container {
+        min-width: 60%;
+    }
+    
 }

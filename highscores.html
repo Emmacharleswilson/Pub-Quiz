@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,42 +15,46 @@
     <!-- title -->
     <title>Pub Quiz</title>
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <script type="text/javascript">
-        function togglemenu() {
-            document.getElementById('sidebar').classList.toggle('active')
-        }
-    </script>
 </head>
 <header>
-<body>
-    <a href="index.html">
-        <h1 class="heading">Pub Quiz</h1>
+
+    <body>
+        <!-- heading and toggle menu -->
+        <a href="index.html">
+            <h1 class="heading">Pub Quiz</h1>
         </a>
 
-    <div id="sidebar" onclick="togglemenu()">
-        <div class="toggle-btn">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div id="sidebar" onclick="togglemenu()">
+            <div class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="rules.html" class="non-active">Rules</a>
+                </li>
+                <li>
+                    <a href="highscores.html" class="active">High Scores</a>
+                </li>
+            </ul>
         </div>
-        <ul>
-            <li>
-                <a href="rules.html" class="non-active">Rules</a>
-            </li>
-            <li>
-                <a href="highscores.html" class="active">High Scores</a>
-            </li>
-        </ul>
-    </div>
-    <!-- sub heading -->
-    <div class="container">
-        <div id="highScores" class="flex-center flex-column">
-          <h2 id="finalScores">Leaderboard</h2>
-          <ul id="highScoresList"></ul>
-          <a href="/index.html" class="btn">Go Home</a>
+        <!-- sub heading -->
+        <div class="container">
+            <div id="highScores" class="flex-center flex-column">
+                <h2 id="finalScores">Leaderboard</h2>
+                <ul id="highScoresList"></ul>
+                <!-- Go Home button -->
+                <a href="/index.html" class="btn">Go Home</a>
+            </div>
         </div>
-    </div>
-    <script src="highscores.js"></script>
-</body>
+        <script src="highscores.js"></script>
+    </body>
+
 </html>
+<!-- javascript for toggle menu -->
+<script type="text/javascript">
+    function togglemenu() {
+        document.getElementById('sidebar').classList.toggle('active')
+    }
+</script>

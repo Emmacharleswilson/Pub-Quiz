@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,18 +15,14 @@
     <!-- title -->
     <title>Quiz Page</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/game.css">
-
-    <script type="text/javascript">
-        function togglemenu() {
-            document.getElementById('sidebar').classList.toggle('active')
-        }
-    </script>
+   
 </head>
+<!-- heading and toggle menu -->
 <header>
-<body>
-    <a href="index.html">
-        <h1 class="heading">Pub Quiz</h1>
+
+    <body>
+        <a href="index.html">
+            <h1 class="heading">Pub Quiz</h1>
         </a>
         <div id="sidebar" onclick="togglemenu()">
             <div class="toggle-btn">
@@ -42,25 +39,27 @@
                 </li>
             </ul>
         </div>
-    </header> 
-    <div class="container">
+</header>
+<!-- question number and score -->
+<div class="container">
     <div id="game" class="justify-center flex-column">
         <div id="hud">
             <div class="hud-item">
-              <p id="progressText" class="hud-prefix">
-                  Question
-              </p>
-              
+                <p id="progressText" class="hud-prefix">
+                    Question
+                </p>
+
             </div>
             <div class="hud-item">
-               <p class="hub-prefix">
-                   Score
-               </p>
-               <h1 class="hud-main-text" id="score">
-                   0
-               </h1>
+                <p class="hub-prefix">
+                    Score
+                </p>
+                <h1 class="hud-main-text" id="score">
+                    0
+                </h1>
             </div>
         </div>
+        <!-- question and answer choices -->
         <h3 id="question">What is the answer to this question</h3>
         <div class="choice-container">
             <p class="choice-prefix">A</p>
@@ -78,8 +77,15 @@
             <p class="choice-prefix">D</p>
             <p class="choice-text" data-number="4">Choice 4</p>
         </div>
-      </div>
     </div>
-    <script src="game.js"></script>
+</div>
+<script src="game.js"></script>
 </body>
+
 </html>
+<!-- javascript for toggle menu -->
+<script type="text/javascript">
+    function togglemenu() {
+        document.getElementById('sidebar').classList.toggle('active')
+    }
+</script>

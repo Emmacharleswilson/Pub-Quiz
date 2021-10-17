@@ -168,6 +168,10 @@
     font-family: "Oswald", sans-serif;
     padding-top: 750px;
 }
+
+#question {
+    margin-top: -15px;
+}
 body {
     color: white;
 }
@@ -217,8 +221,6 @@ h3 {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
-    
-
 }
 
 .choice-text {
@@ -419,4 +421,22 @@ body {
         min-width: 60%;
     }
     
+}
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 2160px) {
+    .heading {
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: gray;
+        font-family: "Bungee", sans-serif;
+        font-size: 240%;
+        letter-spacing: 4px;
+        color: rgb(251, 255, 0);
+        text-shadow: 0px 0px 3px black;
+    
+    }
 }

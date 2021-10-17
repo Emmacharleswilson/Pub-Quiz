@@ -86,7 +86,7 @@
 
 .sub-heading {
     font-family: "Oswald", sans-serif;
-    padding-top: 120px;
+    padding-top: 140px;
     text-align: center;
     font-size: 260%;
     color: rgb(255, 115, 0);
@@ -97,6 +97,7 @@
 
 #gif {
     width: 27%;
+    margin-top: -40px;
 }
 /* start game button **/
 
@@ -171,7 +172,6 @@ h1 {
 h2 {
     font-size: 4.3rem;
     margin-bottom: 4rem;
-    max-width: 30rem;
 }
 
 h3 {
@@ -355,7 +355,7 @@ input::placeholder {
     font-size: 260%;
     letter-spacing: 1px;
     color: rgb(255, 115, 0);
-    margin-top: 150px;
+    margin-top: 450px;
 }
 body {
     color:rgb(255, 255, 255);

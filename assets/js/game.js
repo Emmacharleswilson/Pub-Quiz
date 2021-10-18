@@ -140,10 +140,10 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
         if(classToApply === 'correct') {
-            alert(`You got this right`);
+            alert(`You got this right :D`);
             incrementScore(SCORE_POINTS); 
         } else {
-            alert(`You got this wrong`);
+            alert(`You got this wrong :(`);
         }
 
 

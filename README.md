@@ -8,7 +8,7 @@ This website has been produced to provide a platform for a fun and educational g
 
 In addition to the home page this website also features:
 - The 'Quiz' page
-- A 'Rules' page
+- A 'Instructions section'
 - A 'High Scores' page
 
 The business goals of the website are:
@@ -44,64 +44,49 @@ The website has been designed to work well on desktops & tablets as well, to ens
 To achieve the desired user and business goals this website will include the following:
 1. A landing page with:
 - A `H1` heading
-- A toggle menu
 - A `H2` tagline
 - An animated picture
 - Start game button
+- A High Scores button 
 
-2. Rules Page:
+2. Quiz Page:
 - A `H1` heading
-- A toggle menu
-- A list of clear rules
-
-3. Quiz Page:
-- A `H1` heading
-- A toggle menu 
-- Start game button
-- Question progress bar  
+- Question counter
 - A score count 
 - Quiz qustions 
-- Answer options 
+- 4 answer options 
 
 4. End of quiz page:
 - A `H1` heading 
-- A toggle menu
 - Form to submit name and high score
 - Control buttons
 
 5. High Scores page:
 - A `H1` heading
-- A toggle menu
 - List of top 5 high scores
-- Home button
+- Go Home button 
 
 ### Structure
 This is a multi-page website to keep the amount of information on each page limited and easy to digest; the rules, game and high scores are all separated so that any one using the website can find what they want easily.
-Each page is designed with simplicity in mind, with a drop down toggle menu and an H1 element and then the relevant content centred below; this simplicity will allow for users to feel comfortable using and navigating each page. 
+Each page is designed with simplicity in mind, with a H1 element that returns the user home and the relevant content centred below; this simplicity will allow for users to feel comfortable using and navigating each page. 
 The quiz itself has a question, and four possible answers to pick from. This layout will be responsive so that it isn't too squashed when being viewed on a smaller screen.
 
 ### Skeleton
 [View wireframes here](assets/documents/wiresframes.pdf) 
 
+I made a few changes to the design post creating the wireframes. These include removal of the toggle menu as there wasn't many items included there and also collapsing the instructions into one section which can be found on the home page. 
+
 ### Surface
-I chose to use a background colour of dark Slate Grey, while keeping the header a light grey to highlight this element.
+I chose to use a background colour of dark Slate Grey, while keeping the header a light grey to highlight this element. For the title I chose a bright yellow to make sure this was clear to read and bold. For the subheadings and footer I chose orange to compliment the other colour's used. For any content text I chose the colour white to really make this stand out and easy to read. For any buttons, I chose to highlight these is red to draw the user to them, and the text within them yellow. I feel that this colour palet is very gender nutral, highlights the element's that are important to the user which makes navigating the website easier. 
 
-For the title I chose a bright yellow to make sure this was clear to read and bold. 
-
-For the subheadings and footer I chose orange to compliment the other colour's used. 
-
-For any content text I chose the colour white to really make this stand out and easy to read. 
-
-For any buttons, I chose to highlight these is red to draw the user to them, and the text within them yellow. 
-
-I feel that this colour palet is very gender nutral, highlights the element's that are important to the user which makes navigating the website easier. 
+The font used is `Oswald` and `Bungee`. The font `Bungee` is used as the main title and for the questions. The remaining elements are all in the font `Oswald`. 
 
 ---
 ## Features 
 
 ### All pages
 #### *Navbar*
-The navbar features on all pages & is fully responsive, on screens smaller than 768px it collapses in a hamburger icon which when clicked opens the menu with links in a vertical list. I felt this simple way of displaying the menu on all screen sizes would be intuitive and provide all users with a positive user experience.
+The navbar features on all pages & is fully responsive and returns the user to the home page when clicked. 
 
 ### *Title* 
 All page titles are `H1` elements, they are centred and large in size so there is no ambiguity as to which page the user is on.
@@ -110,7 +95,7 @@ All page titles are `H1` elements, they are centred and large in size so there i
 All of the navigation buttons throughout the site are styled in the same way & they change once the user hovers over them; this continuity was intentional as I want all users to feel comfortable with this website & its features and be able to use it with ease.
 
 ### Home page
-#### *Animated Globe*
+#### *Animated Gif*
 The animated globe on the home page was added to provide a fun interactive element as soon as users entered the site, as the target audience is children I wanted to create a positive reaction instantaneously so that users would feel encouraged to continue through the site.
 
 #### *Animated heading*

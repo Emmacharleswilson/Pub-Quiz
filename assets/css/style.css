@@ -29,13 +29,6 @@ span {
   from {
     opacity: 0;
   }
-  65% {
-    opacity: 0.5;
-    text-shadow: 0 0 25px rgba(255, 255, 255, 0);
-  }
-  75% {
-    opacity: 0.75;
-  }
   to {
     opacity: 1;
   }
@@ -451,12 +444,26 @@ body {
     }
 
     #game {
-        width: 450px;
+        width: 300px;
     }
 
+    #score {
+        font-size: 70%;
+    } 
+
+    .hub-prefix {
+        font-size: 70%;
+    }
+
+    #progressText {
+        font-size: 70%;
+    }
+    #question {
+        font-size: 90%;
+        margin-top: -50px;
+    }
     #hud {
         width: 90%;
-        font-size: 10px;
     }
     h3 {
         font-size: 20px;

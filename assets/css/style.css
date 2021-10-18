@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -407,6 +408,47 @@ body {
     #gif {
         width: 50%;
     }
+
+    .sub-heading h2 {
+        font-size: 30px;
+    }
+
+    #rules li {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 8px;
+        font-size: 20.5px;
+  
+    }
+
+    #saveScoreBtn {
+        width: 180px;
+        height: 20px;
+        font-size: 20.5px;
+    }
+    
+    #highscores {
+        margin-top: -30px;
+       
+    }
+
+    #game {
+        width: 450px;
+    }
+
+    #hud {
+        width: 90%;
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 20px;
+        min-width: 280px;
+        max-width: 280px;
+    }
+
 }
 
 @media screen and (max-width: 980px){

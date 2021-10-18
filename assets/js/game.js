@@ -97,7 +97,7 @@ let questions = [
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 10
 
-// This functions starts the game and calls the 
+// This functions starts the game 
 function startgame() {
     questionCounter = 0
     score = 0
@@ -140,8 +140,12 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
         if(classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            alert(`You got this right`);
+            incrementScore(SCORE_POINTS); 
+        } else {
+            alert(`You got this wrong`);
         }
+
 
         selectedChoice.parentElement.classList.add(classToApply)
 
@@ -158,3 +162,4 @@ incrementScore = num => {
 }
 
 startgame()
+

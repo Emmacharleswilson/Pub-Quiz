@@ -45,15 +45,17 @@ span {
 
 #title {
     font-family: "Bungee", sans-serif;
-    font-size: 100%;
     display: block;
     text-align: center;
-    margin-top: -380px;
+    margin-top: -390px;
+    margin-bottom: -200px;
 }
 
 #title h1 {
     color: rgb(251, 255, 0);
     margin-left: -30px;
+    font-size: 400%;
+
 }
 
 #menu li {
@@ -84,8 +86,8 @@ span {
 #gif {
     width: 32%;
     height: 32%;
+    padding-top: 120px;
     margin-bottom: -40px;
-    margin-top: -80px;
 }
 
 

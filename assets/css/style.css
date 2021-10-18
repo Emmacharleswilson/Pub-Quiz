@@ -77,9 +77,13 @@
 /* beer glasses gif **/
 
 #gif {
-    width: 27%;
-    margin-top: 150px;
+    width: 32%;
+    height: 32%;
+    padding-top: 110px;
+    margin-bottom: -40px;
 }
+
+
 /* start game button **/
 
 .flex-column {
@@ -274,7 +278,6 @@ input::placeholder {
 /* score text **/
 
 .container {
-    width: 100vw;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -404,13 +407,34 @@ body {
     #gif {
         width: 50%;
     }
-
 }
 
 @media screen and (max-width: 980px){
     .choice-container {
         min-width: 60%;
     }
+
+    #rules {
+        font-family: "Oswald", sans-serif;
+        color: white;
+        font-size: 160%;
+        padding-left: 50px;
+        padding-right: 50px;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    
+    #rules li {
+        margin-bottom: 30px;
+        margin-top: 40px;
+        list-style: none;
+        text-align: center;
+    }
+    
+    #good-luck {
+        font-size: 110%;
+    }
+
     
 }
 

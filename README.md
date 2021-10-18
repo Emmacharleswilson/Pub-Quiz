@@ -12,7 +12,7 @@ In addition to the home page this website also features:
 - A 'High Scores' page
 
 The business goals of the website are:
-1. To provide an educational learning platform for people agerd 12+.
+1. To provide an educational learning platform for people agerd 16+.
 2. To provide engaging content so that users enjoy using this quiz.
 3. To create an easy to navigate website to ensure that it is user friendly.
 

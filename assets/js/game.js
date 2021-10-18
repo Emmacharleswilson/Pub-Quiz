@@ -1,3 +1,4 @@
+// Question, Choices, Progress and Score varibales 
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -9,6 +10,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+// Quiz questions 
 let questions = [
     {
         question: 'What is the highest Mountain in the World?',
@@ -95,6 +97,7 @@ let questions = [
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 10
 
+// This functions starts the game and calls the 
 function startgame() {
     questionCounter = 0
     score = 0

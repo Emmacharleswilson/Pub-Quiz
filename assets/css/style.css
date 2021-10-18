@@ -16,17 +16,39 @@
 
 /* title tester **/ 
 
+.glowIn {
+  color: rgb(251, 255, 0);
+  margin-top: 400px;
+}
 
+span {
+    animation: glow-in 0.8s both;
+}
+
+@keyframes glow-in {
+  from {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0.5;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0);
+  }
+  75% {
+    opacity: 0.75;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /* headings and toggle menu **/
 
 #title {
     font-family: "Bungee", sans-serif;
     font-size: 100%;
-    padding-top: 10px;
-    padding-left: 30px;
     display: block;
     text-align: center;
+    margin-top: -380px;
 }
 
 #title h1 {
@@ -63,7 +85,7 @@
     width: 32%;
     height: 32%;
     margin-bottom: -40px;
-    margin-top: -50px;
+    margin-top: -80px;
 }
 
 

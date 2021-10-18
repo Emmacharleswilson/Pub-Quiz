@@ -47,7 +47,7 @@ span {
     font-family: "Bungee", sans-serif;
     display: block;
     text-align: center;
-    margin-top: -390px;
+    margin-top: -380px;
     margin-bottom: -200px;
 }
 
@@ -116,13 +116,13 @@ span {
 }
 
 .btn {
-    font-family: "Oswald", sans-serif;
-    font-size: 200%;
-    letter-spacing: 1px;
+    font-family: "Bungee", sans-serif;
+    font-size: 140%;
+    letter-spacing: 2px;
     padding: 40px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    width: 220px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    width: 200px;
     height: 20px;
     text-align: center;
     margin-bottom: 1rem;
@@ -150,11 +150,17 @@ span {
 
 #game {
     font-family: "Oswald", sans-serif;
-    padding-top: 750px;
+    padding-top: 150px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 #question {
-    margin-top: -15px;
+    font-family: "Bungee", sans-serif;
+    font-size: 130%;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    line-height: 30px;
 }
 body {
     color: white;
@@ -205,10 +211,6 @@ h3 {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
-}
-
-.choice-text {
-    
     width: 100%;
 }
 
@@ -230,15 +232,18 @@ h3 {
 .hud-prefix {
     text-align: center;
     font-size: 1.8rem;
+    color: rgb(255, 115, 0);
 }
 
 .hud-item {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    color: rgb(255, 115, 0);
 }
 
 .hud-main-text {
     font-size: 2rem;
     text-align: center;
+    color: red;
 }
 
 /* end page **/
@@ -277,7 +282,7 @@ input::placeholder {
 /* save score button **/
 
 #saveScoreBtn {
-    width: 300px;
+    width: 280px;
     height: 70px;
     border: none;
 }
@@ -286,7 +291,6 @@ input::placeholder {
 
 .container {
     height: 50px;
-    display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
@@ -295,7 +299,7 @@ input::placeholder {
 }
 
 #end {
-    margin-top: 720px;
+    margin-top: 150px;
 }
 
 #end-text {
@@ -306,9 +310,8 @@ input::placeholder {
     color: white;
 }
 
-#finalScore {
-    font-family: "Oswald", sans-serif;
-    padding-bottom: 15px;
+#finalScores {
+    margin-top: -500px;
 }
 
 /* rules page **/
@@ -349,14 +352,14 @@ input::placeholder {
     font-size: 260%;
     letter-spacing: 1px;
     color: rgb(255, 115, 0);
-    margin-top: 650px;
+    margin-top: 200px;
 }
 body {
     color:rgb(255, 255, 255);
 }
 
 #highScoresList {
-    font-family: "Oswald", sans-serif;
+    font-family: "Bungee", sans-serif;
     list-style: none;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -411,6 +414,10 @@ body {
 /** media query's **/
 
 @media screen and (max-width: 600px) {
+    #title {
+        font-size: 70%;
+        margin-left: 30px;
+    }
     #gif {
         width: 50%;
     }
@@ -425,16 +432,17 @@ body {
     }
 
     .btn {
-        width: 100px;
-        height: 8px;
-        font-size: 20px;
+        width: 120px;
+        height: 7px;
+        font-size: 15px;
+        letter-spacing: 1px;
   
     }
 
     #saveScoreBtn {
-        width: 180px;
+        width: 200px;
         height: 20px;
-        font-size: 20.5px;
+        font-size: 16px;
     }
     
     #highscores {
@@ -454,6 +462,19 @@ body {
         font-size: 20px;
         min-width: 280px;
         max-width: 280px;
+    }
+    #username {
+        width: 200px;
+        height: 10px;
+        font-size: 15px;
+    }
+
+    #end-text {
+        font-size: 20px;
+    }
+
+    #finalScore {
+        font-size: 40px;
     }
 
 }

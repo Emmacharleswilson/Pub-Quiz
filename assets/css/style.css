@@ -14,7 +14,7 @@
     flex: 1;
   }
 
-/* title tester **/ 
+/* gif animation **/ 
 
 .glowIn {
   color: rgb(251, 255, 0);
@@ -34,29 +34,29 @@ span {
   }
 }
 
-/* headings and toggle menu **/
+/* title tester **/
 
-#title {
-    font-family: "Bungee", sans-serif;
-    display: block;
+.ml6 {
+    position: relative;
     text-align: center;
-    margin-top: -380px;
-    margin-bottom: -200px;
-}
-
-#title h1 {
+  }
+  
+  .ml6 .text-wrapper {
+    font-family: "Bungee", sans-serif;
+    font-size: 90%;
     color: rgb(251, 255, 0);
-    margin-left: -30px;
-    font-size: 400%;
-
-}
-
-#menu li {
-    display: inline;
-    letter-spacing: 1px;
-    padding-right: 20px;
-    background-color: grey;
-}
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
 
 /* sub heading **/
 
@@ -79,8 +79,8 @@ span {
 #gif {
     width: 32%;
     height: 32%;
-    padding-top: 120px;
     margin-bottom: -40px;
+    margin-top: -85px;
 }
 
 
@@ -143,9 +143,9 @@ span {
 
 #game {
     font-family: "Oswald", sans-serif;
-    padding-top: 150px;
     width: 600px;
     margin: 0 auto;
+    margin-top: -90px;
 }
 
 #question {
@@ -272,6 +272,10 @@ input::placeholder {
     font-size: 150%;
 }
 
+#end {
+    margin-top: -80px;
+}
+
 /* save score button **/
 
 #saveScoreBtn {
@@ -291,10 +295,6 @@ input::placeholder {
     padding: 2rem;
 }
 
-#end {
-    margin-top: 150px;
-}
-
 #end-text {
     font-family: "Oswald", sans-serif;
     font-size: 200%;
@@ -303,9 +303,7 @@ input::placeholder {
     color: white;
 }
 
-#finalScores {
-    margin-top: -500px;
-}
+
 
 /* rules page **/
 
@@ -332,21 +330,13 @@ input::placeholder {
 
 /** high scores css **/
 
-#finalScore {
-    font-family: "Oswald", sans-serif;
-    font-size: 350%;
-    color: rgb(255, 115, 0);
-    letter-spacing: 1px;
-    margin-top: -5px;
-}
-
 #finalScores {
     font-family: "Oswald", sans-serif;
     font-size: 260%;
     letter-spacing: 1px;
     color: rgb(255, 115, 0);
-    margin-top: 200px;
 }
+
 body {
     color:rgb(255, 255, 255);
 }
@@ -407,12 +397,11 @@ body {
 /** media query's **/
 
 @media screen and (max-width: 600px) {
-    #title {
+    .ml6 .text-wrapper {
         font-size: 70%;
-        margin-left: 30px;
     }
     #gif {
-        width: 50%;
+        width: 70%;
     }
 
     .sub-heading h2 {

@@ -1,3 +1,5 @@
+/** fade in effect on gif */
+
 window.onload = fadeIn;
 
         function fadeIn() {
@@ -14,14 +16,23 @@ window.onload = fadeIn;
             }, 100);
         }
 
-let glowInTexts = document.querySelectorAll(".glowIn");
-glowInTexts.forEach(glowInText => {
-    let letters = glowInText.textContent.split("");
-          glowInText.textContent = "";
-          letters.forEach((letter, i) => {
-            let span = document.createElement("span");
-            span.textContent = letter;
-            span.style.animationDelay = `${i * 0.1}s`;
-            glowInText.append(span);
-          });
-        });
+/** title animation pt 2  */
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });

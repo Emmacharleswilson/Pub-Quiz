@@ -1,4 +1,4 @@
-s# Pub Quiz
+# Pub Quiz
 
 ![](assets/documents/images/am_i_responsive.png)
 

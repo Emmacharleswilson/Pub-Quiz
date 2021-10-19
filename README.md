@@ -72,10 +72,7 @@ Each page is designed with simplicity in mind, with a H1 element that returns th
 The quiz itself has a question, and four possible answers to pick from. This layout will be responsive so that it isn't too squashed when being viewed on a smaller screen.
 
 ### Skeleton
-[View wireframes here](assets/readme-files/home-page.png) 
-[View wireframes here](assets/readme-files/instructions.png) 
-[View wireframes here](assets/readme-files/quiz.png) 
-[View wireframes here](assets/readme-files/high-scores.png) 
+[View wireframes here](assets/readme-files/home-page.png/instructions.png/quiz.png/high-scores/png) 
 
 I made a few changes to the design post creating the wireframes. These include removal of the toggle menu as there wasn't many items included there and also collapsing the instructions into one section which can be found on the home page. 
 

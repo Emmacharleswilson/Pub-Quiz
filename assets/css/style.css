@@ -54,6 +54,7 @@ span {
   }
   
   .ml6 .letter {
+    color: rgb(251, 255, 0);
     display: inline-block;
     line-height: 1em;
   }
@@ -328,9 +329,16 @@ input::placeholder {
     font-size: 110%;
 }
 
-/** high scores css **/
+/** high scores **/
 
 #finalScores {
+    font-family: "Oswald", sans-serif;
+    font-size: 260%;
+    letter-spacing: 1px;
+    color: rgb(255, 115, 0);
+}
+
+#finalScore {
     font-family: "Oswald", sans-serif;
     font-size: 260%;
     letter-spacing: 1px;
@@ -356,41 +364,17 @@ body {
 /** footer **/
 
 #home-page-footer {
-    bottom: 0;
-    height: 1px;
-    width: 100%;
     font-family: "Bungee", sans-serif;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
     text-align: center;
-}
-
-#home-page-footer h3 {
-    font-size: 80%;
+    font-size: 90%;
     letter-spacing: 1px;
     color: rgb(255, 115, 0);
-    margin-top: 40px;
-    height: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-#footer {
-    position: absolute;
-    bottom: 0;
-    height: 1px;
-    width: 100%;
-    font-family: "Bungee", sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-} 
 
-#footer h3 {
-    font-size: 80%;
-    letter-spacing: 1px;
-    color: rgb(255, 115, 0);
-    margin-top: 40px;
-    height: 80px;
-}
     
 
 

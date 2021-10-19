@@ -16,7 +16,7 @@ window.onload = fadeIn;
             }, 100);
         }
 
-/** title animation pt 2  */
+/** title animation */
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml6 .letters');

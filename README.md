@@ -43,26 +43,26 @@ The website has been designed to work well on desktops & tablets as well, to ens
 ### Scope
 To achieve the desired user and business goals this website will include the following:
 1. A landing page with:
-- A `H1` heading
+- A `H1` animated heading
 - A `H2` tagline
 - An animated picture
 - Start game button
 - A High Scores button 
 
 2. Quiz Page:
-- A `H1` heading
+- A `H1` animated heading
 - Question counter
 - A score count 
 - Quiz qustions 
 - 4 answer options 
 
 4. End of quiz page:
-- A `H1` heading 
+- A `H1` animated heading 
 - Form to submit name and high score
 - Control buttons
 
 5. High Scores page:
-- A `H1` heading
+- A `H1` animated heading
 - List of top 5 high scores
 - Go Home button 
 
@@ -89,17 +89,17 @@ The font used is `Oswald` and `Bungee`. The font `Bungee` is used as the main ti
 The navbar features on all pages & is fully responsive and returns the user to the home page when clicked. 
 
 ### *Title* 
-All page titles are `H1` elements, they are centred and large in size so there is no ambiguity as to which page the user is on.
+All page titles are `H1` elements, they are centred and large in size so there is no ambiguity as to which page the user is on. Clicking this will return the user to the Home Page.
 
 ### *Buttons*
 All of the navigation buttons throughout the site are styled in the same way & they change once the user hovers over them; this continuity was intentional as I want all users to feel comfortable with this website & its features and be able to use it with ease.
 
 ### Home page
 #### *Animated Gif*
-The animated globe on the home page was added to provide a fun interactive element as soon as users entered the site, as the target audience is children I wanted to create a positive reaction instantaneously so that users would feel encouraged to continue through the site.
+The animated gif was implimented to create a fun and intriuging landing page. 
 
 #### *Animated heading*
-In addition to the globe I chose to animate the heading to continue that feeling of fun, I felt this would entice users over a static heading.
+In addition to the gif I chose to animate the heading to continue that feeling of fun, I felt this would entice users over a static heading.
 
 #### *To the Quiz button*
 After asking my family to test the quiz it was highlighted to me that having a button to take you straight to the quiz might make it easier for users to navigate and so I added this button. It is styled as all of the other buttons are throughout the site.

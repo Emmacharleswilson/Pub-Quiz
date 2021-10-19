@@ -2,7 +2,7 @@
 
 ![](assets/documents/images/am_i_responsive.png)
 
-[View the website here]()
+[View the website here](https://emmacharleswilson.github.io/Pub-Quiz/)
 
 This website has been produced to provide a platform for a fun and educational game designed for agers 16+. It offers questions in a quiz format to test the users general knowledge.
 
@@ -12,7 +12,7 @@ In addition to the home page this website also features:
 - A 'High Scores' page
 
 The business goals of the website are:
-1. To provide an educational learning platform for people agerd 16+.
+1. To provide an educational learning platform for people aged 16+.
 2. To provide engaging content so that users enjoy using this quiz.
 3. To create an easy to navigate website to ensure that it is user friendly.
 
@@ -72,12 +72,15 @@ Each page is designed with simplicity in mind, with a H1 element that returns th
 The quiz itself has a question, and four possible answers to pick from. This layout will be responsive so that it isn't too squashed when being viewed on a smaller screen.
 
 ### Skeleton
-[View wireframes here](assets/documents/wiresframes.pdf) 
+[View wireframes here](assets/readme-files/home-page.png) 
+[View wireframes here](assets/readme-files/instructions.png) 
+[View wireframes here](assets/readme-files/quiz.png) 
+[View wireframes here](assets/readme-files/high-scores.png) 
 
 I made a few changes to the design post creating the wireframes. These include removal of the toggle menu as there wasn't many items included there and also collapsing the instructions into one section which can be found on the home page. 
 
 ### Surface
-I chose to use a background colour of dark Slate Grey, while keeping the header a light grey to highlight this element. For the title I chose a bright yellow to make sure this was clear to read and bold. For the subheadings and footer I chose orange to compliment the other colour's used. For any content text I chose the colour white to really make this stand out and easy to read. For any buttons, I chose to highlight these is red to draw the user to them, and the text within them yellow. I feel that this colour palet is very gender nutral, highlights the element's that are important to the user which makes navigating the website easier. 
+I chose to use a background colour of dark Slate Grey. For the title I chose a bright yellow to make sure this was clear to read and bold. For the subheadings and footer I chose orange to compliment the other colour's used. For any content text I chose the colour white to really make this stand out and easy to read. For any buttons, I chose to highlight these is red to draw the user to them, and the text within them yellow. I feel that this colour palet is very gender nutral, highlights the element's that are important to the user which makes navigating the website easier. 
 
 The font used is `Oswald` and `Bungee`. The font `Bungee` is used as the main title and for the questions. The remaining elements are all in the font `Oswald`. 
 

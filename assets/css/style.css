@@ -392,8 +392,12 @@ body {
         font-size: 70%;
     }
 
-    #gif {
-        width: 70%;
+    .gif {
+        margin-left: 100px;
+    }
+
+    .beer {
+        width: 190%;
     }
 
     .sub-heading h2 {

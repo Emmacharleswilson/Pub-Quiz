@@ -59,6 +59,10 @@ span {
     line-height: 1em;
 }
 
+.letters {
+    text-decoration: none;
+}
+
 /* sub heading **/
 
 .sub-heading {

@@ -388,12 +388,9 @@ body {
         font-size: 60%;
     }
 
-    .gif {
-        margin-left: 100px;
-    }
-
     .beer {
         width: 190%;
+        margin-left: -50px;
     }
 
     .sub-heading h2 {
@@ -472,6 +469,12 @@ body {
 }
 
 @media screen and (max-width: 980px) {
+
+    .beer {
+        width: 190%;
+        margin-left: -50px;
+    }
+
     .choice-container {
         min-width: 60%;
     }
@@ -496,8 +499,6 @@ body {
     #good-luck {
         font-size: 110%;
     }
-
-
 }
 
 @media screen and (min-device-width: 1920px) and (max-device-width: 2160px) {

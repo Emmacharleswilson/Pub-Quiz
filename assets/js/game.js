@@ -11,8 +11,7 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 // Quiz questions 
-let questions = [
-    {
+let questions = [{
         question: 'What is the highest Mountain in the World?',
         choice1: 'Makalu',
         choice2: 'K2',
@@ -131,7 +130,7 @@ function getNewQuestion() {
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return
+        if (!acceptingAnswers) return
 
         acceptingAnswers = false
         const selectedChoice = e.target
@@ -139,11 +138,8 @@ choices.forEach(choice => {
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
-        if(classToApply === 'correct') {
-            alert(`You got this right :D`);
-            incrementScore(SCORE_POINTS); 
-        } else {
-            alert(`You got this wrong :(`);
+        if (classToApply === 'correct') {
+            incrementScore(SCORE_POINTS);
         }
 
 
@@ -157,9 +153,8 @@ choices.forEach(choice => {
 })
 
 incrementScore = num => {
-    score +=num
+    score += num
     scoreText.innerText = score
 }
 
 startgame()
-

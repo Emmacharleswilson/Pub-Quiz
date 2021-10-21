@@ -389,7 +389,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .ml6 .text-wrapper {
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .gif {
@@ -429,7 +429,7 @@ body {
     }
 
     #game {
-        width: 300px;
+        width: 260px;
     }
 
     #score {

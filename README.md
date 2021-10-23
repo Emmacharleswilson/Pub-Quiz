@@ -4,6 +4,9 @@
 
 [View the website here](https://emmacharleswilson.github.io/Pub-Quiz/)
 
+
+## Introduction 
+
 This website has been produced to provide a platform for a fun and educational game designed for agers 16+. It offers questions in a quiz format to test the users general knowledge.
 
 In addition to the home page this website also features:
@@ -44,7 +47,6 @@ The website has been designed to work well on desktops & tablets as well, to ens
 To achieve the desired user and business goals this website will include the following:
 1. A landing page with:
 - A `H1` animated heading
-- A `H2` tagline
 - An animated picture
 - Start game button
 - A High Scores button 

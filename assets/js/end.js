@@ -1,4 +1,6 @@
-// Ussername and Score variables 
+/*jshint esversion: 6 */
+
+// Username and Score variables 
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
 const finalScore = document.querySelector('#finalScore');

@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /** title animation */
 
 // Wrap every letter in a span

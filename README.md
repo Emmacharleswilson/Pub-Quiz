@@ -202,7 +202,14 @@ I used the Lighthouse report on Google Dev Tools to test my websites performance
 ### Known bugs and fixes
 Throughout the entire project, I have used Google Chrome Developer Tools to debug any issues with styling and alignment; this tool enabled me to change things and see the effect this had immediately. The use of the console whilst in dev tools was also incredibly helpful as I was able to utilise this to test my JavaScript code, using `console.log()` to check that my functions were being called correctly and that the desired information was going to be displayed. This was pivotal in designing the quiz as I needed to have access to the information of the various elements in order to be able to programme the quiz correctly.
 
-I tested the quizzes functionality by 'playing' it myself, to ensure the user experience was positive and that everything was working as it should. One key bug that I resolved was the duplication of answer options, I had written a `do-while` loop in the generateQuestion function which I thought had fixed the problem but whilst testing I found the occasional duplication occurred. For this reason, I added two more `if` statements to the same function to prevent this from occurring. Using `console.log()` I was able to prove that this implementation worked and the bug had been resolved.
+I tested the quizzes functionality by 'playing' it myself, to ensure the user experience was positive and that everything was working as it should. 
+
+**404 error**
+On mobile, when the user completed the quiz and tried to save their name and score, instead of being redirected to the High Scores page it was coming up with a 404 error. I fixed this by removing the '/' before highscores.html in the game.html file. 
+
+**title underline** 
+On mobile and desktop there was a small line between Pub and Quiz in my heading. I resolved this by setting the text-decoration to none in my CSS. 
+
 
 ### Validation: HTML, CSS and JavaScript
 Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code, initially there were errors as you can see below:

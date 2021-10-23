@@ -148,8 +148,6 @@ I have used several technologies that have enabled this design to work:
     - Used to style all the web content across the project. 
 - [JavaScript](https://www.javascript.com/)
     - Used for the responsive navbar, animated heading, quiz functionality & sound effects and high-scores leaderboard.
-- [Jquery](https://jquery.com/)
-    - This library has been used occassionally in my JavaScript code, specifically in my checkAnswer function in quiz.js.
 - [Google Fonts](https://fonts.google.com/)
     - Used to obtain the fonts linked in the header, fonts used were Playfair and Cookie
 - [Font Awesome](https://fontawesome.com/)
@@ -213,24 +211,16 @@ On mobile and desktop there was a small line between Pub and Quiz in my heading.
 
 ### Validation: HTML, CSS and JavaScript
 Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code, initially there were errors as you can see below:
-![](assets/documents/images/jshint_errors.png)
+![](assets/images/jshint-errors.png)
 
 However, I implemented all changes to ensure my code passed with no errors:
 ![](assets/documents/images/jshint_no_errors.png)
 
-In addition to Jshint, I used Jigsaw to validate my HTML and CSS which both passed with errors initially:
-![](assets/documents/images/css_validation_with_errors.png)
-![](assets/documents/images/html_validation_with_errors.png)
-
-Which both now pass with no errors: 
-![](assets/documents/images/css_validation_no_errors.png)
-![](assets/documents/images/html_validation_no_errors.png)
-
-To further ensure that my website is fully accessible I used WAVE and color contrast - initially, I had some errors with mislabelling which I was able to resolve:
-![](assets/documents/images/wave_report.png)
-
-My background colour also failed the contrast report so I changed it to a darker shade of blue and now this report has no errors:
-![](assets/documents/images/contrast_report.png)
+In addition to Jshint, I used Jigsaw to validate my HTML and CSS which pass with no errors:
+![](assets/images/index.png)
+![](assets/images/quiz.png)
+![](assets/images/highscores.png)
+![](assets/images/end.png)
 
 In addition to testing that I conducted, I got my friends, family & fellow students to test the website on their phones/laptops/tablets/desktops and provide feedback on anything they felt didn't work or look right, this enabled me to debug any issues that I might not have otherwise found.
 

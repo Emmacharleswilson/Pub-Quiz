@@ -1,6 +1,6 @@
 # Pub Quiz
 
-![](assets/documents/images/am_i_responsive.png)
+![](assets/images/amiresponsive.png)
 
 [View the website here](https://emmacharleswilson.github.io/Pub-Quiz/)
 

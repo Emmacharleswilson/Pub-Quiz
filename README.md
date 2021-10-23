@@ -187,7 +187,7 @@ The navbar being placed right at the top of all pages allows the user to return 
 ![](assets/images/return-home.gif)
 
 2. **As a first time user, I want to expland my general knowledge by playing a quiz game.**
-As part of the quiz design, I added visual cues so that the user will know when they have answered a question correctly or incorrectly. This instant feedback will allow them to learn as they play the quiz.
+As part of the quiz design, I added visual cues so that the user will know when they have answered a question correctly or incorrectly. This instant feedback will allow them to learn as they play the quiz. In future I think it would be benefitial to the user if when they get the answer incorrect the correct answer is also highlighted. 
 ![](assets/images/visual-cues.gif)
 
 

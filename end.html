@@ -27,25 +27,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </header>
 
-<body>
-    <!-- high scores -->
-    <div class="container">
-        <div id="end" class="flex-center flex-column">
-            <h1 id="finalScore">0</h1>
-            <form class="end-form-container">
-                <h2 id="end-text">Enter your name below to save your score!</h2>
-                <input type="text" name="name" id="username" placeholder="Enter your name">
-                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)"
-                    disabled>Save</button>
-            </form>
-            <a href="game.html" class="btn">Play Again</a>
-            <a href="index.html" class="btn">Go Home</a>
-        </div>
-
+<!-- high scores -->
+<div class="container">
+    <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore">0</h1>
+        <form class="end-form-container">
+            <h2 id="end-text">Enter your name below to save your score!</h2>
+            <input type="text" name="name" id="username" placeholder="Enter your name">
+            <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+        </form>
+        <a href="game.html" class="btn">Play Again</a>
+        <a href="index.html" class="btn">Go Home</a>
     </div>
-    <script src="assets/js/end.js"></script>
-    <script src="assets/js/title.js"></script>
-    <!-- footer starts here -->
+
+</div>
+<script src="assets/js/end.js"></script>
+<script src="assets/js/title.js"></script>
+<!-- footer starts here -->
 </body>
 
 </html>

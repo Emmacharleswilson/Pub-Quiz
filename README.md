@@ -118,14 +118,11 @@ I wanted to keep this on the Home Page to make it easy for the user to find and 
 #### *High Scores button*
 After removing my toggle menu it was apparent that the High Scores needs to be accessible from the Home Page, to allow the users to visit this easily. 
 
-### Rules
-#### *Rules list*
+### Instructions
+#### *Instructions list*
 The list of rules is an `ul` element, it has been styled to remain in the centre of the screen to allow for better responsivity.
 
 ### Quiz
-#### *Game controls*
-These buttons follow the same style rules as the other buttons, they just appear on the screen at different times depending on what the user clicks. I wanted to give the user control over the quiz process and also to be able to quit if required.
-
 #### *Quiz elements*
 The quiz is made up of the following: 
 - Two progress items (question & score counts), which remain at the top of the quiz on opposite sides of the page so the user can see their progress.
@@ -153,8 +150,6 @@ I have used several technologies that have enabled this design to work:
     - Used for the responsive navbar, animated heading, quiz functionality & sound effects and high-scores leaderboard.
 - [Jquery](https://jquery.com/)
     - This library has been used occassionally in my JavaScript code, specifically in my checkAnswer function in quiz.js.
-- [Planetary JS](http://planetaryjs.com/examples/rotating.html)
-    - Library used to render the animated globe on the landing page. 
 - [Google Fonts](https://fonts.google.com/)
     - Used to obtain the fonts linked in the header, fonts used were Playfair and Cookie
 - [Font Awesome](https://fontawesome.com/)
@@ -169,18 +164,8 @@ I have used several technologies that have enabled this design to work:
     - Used as the development environment.
 - [Balsamiq](https://balsamiq.com/)
     - Used to create the wireframes for the project.
-- [AutoPrefixer](https://autoprefixer.github.io/)
-    - Used to parse my CSS and ass vendor prefixes.
 - [Grammarly](https://www.grammarly.com/)
     - Used to fix the grammar errors across the project.
-- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
-    - Used to detect overflow of elements, which allowed me to quickly debug any issues.
-- [Coloors](https://coolors.co/)
-    - Used to create a colour palette for the design.
-- [Favicon.io](https://favicon.io/)
-    - Used to create favicon's for my website
-- [Color Contrast Accessibility Validator](https://color.a11y.com/)
-    - Allowed me to test the colour contrast of my webpage.
 - [W3C Markup Validation Service](https://validator.w3.org/) 
     - Used to validate all HTML code written and used in this webpage.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -198,12 +183,11 @@ I have used several technologies that have enabled this design to work:
 
 ### User Stories 
 1. **As a first time user, I want to be able to navigate my way easily throughout the website.**
-The navbar being placed right at the gives the user a clear indication of how to navigate through the website, it is placed in the same place on every page to provide continuity for the user.
+The navbar being placed right at the top of all pages allows the user to return to the home page at any point. To improve this in furture I would probably include an animation that points this action out to the user as some user's may not know to click the Pub Quiz heading to return home. 
 ![](assets/documents/images/navigation_user_story.png)
 
-2. **As a first time user, I want to learn about new capital cities around the world by playing the quiz.**
-As part of the quiz design, I added both visual & sound cues so that the user will know when they have answered a question correctly. This instant feedback will allow them to learn as they play the quiz.
-Furthermore, the quiz features every country in the world and so there is a vast opportunity to learn about countries they may not have known about before.
+2. **As a first time user, I want to expland my general knowledge by playing a quiz game.**
+As part of the quiz design, I added visual cues so that the user will know when they have answered a question correctly or incorrectly. This instant feedback will allow them to learn as they play the quiz.
 ![](assets/documents/images/correct_answer_userstory2.png)
 ![](assets/documents/images/incorrect_answer_userstory2.png)
 

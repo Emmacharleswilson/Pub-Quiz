@@ -16,7 +16,7 @@ username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
 
-// This function saves and stores users highscores 
+// This function saves and stores users highscores in order of highest to lowest 
 saveHighScore = e => {
     e.preventDefault();
 

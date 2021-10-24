@@ -198,7 +198,7 @@ h3 {
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.02);
-    transform: transform 100ms;
+    transform: etc etc;
 }
 
 .choice-prefix {
@@ -506,7 +506,7 @@ body {
     }
 }
 
-@media screen and (min-device-width: 1920px) and (max-device-width: 2160px) {
+@media screen and (min-width: 1920px) and (max-width: 2160px) {
     .heading {
         position: fixed;
         height: 60px;

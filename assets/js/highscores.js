@@ -4,7 +4,7 @@
 const highScoresList = document.querySelector('#highScoresList');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-// function to return user name and user score to create a list
+// function to retrieve and display user names and scores  
 highScoresList.innerHTML =
     highScores.map(score => {
         return `<li class="high-score">${score.name} - ${score.score}</li>`;

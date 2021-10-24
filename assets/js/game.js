@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-// Question, Choices, Progress and Score varibales 
+// Question, Choices, Progress and Score variables 
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -12,7 +12,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-// Quiz questions 
+// Quiz questions and answers defined in an array of objects
 let questions = [{
         question: 'What is the highest Mountain in the World?',
         choice1: 'Makalu',
@@ -46,7 +46,7 @@ let questions = [{
         answer: 4,
     },
     {
-        question: 'How many films have Al Pacino and robert De Niro appeared in together?',
+        question: 'How many films have Al Pacino and Robert De Niro appeared in together?',
         choice1: '3',
         choice2: '4',
         choice3: '2',
@@ -95,6 +95,7 @@ let questions = [{
     },
 ];
 
+// Sets points for each correct answer and the maximum number of questions
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
 
@@ -106,6 +107,8 @@ function startgame() {
     getNewQuestion();
 }
 
+/* This function gets a new question from the question array until the maximum number of 
+questions is reached. It then sets the most recent score variable and returns the user to the end.html page */
 function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
@@ -116,20 +119,24 @@ function getNewQuestion() {
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
 
+    // This generates a random integer to enable the next question to be selected from the available questions 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
+    // This displays the choices for the question
     choices.forEach(choice => {
         const number = choice.dataset.number;
         choice.innerText = currentQuestion['choice' + number];
     });
 
+    // This removes the question from the available questions array
     availableQuestions.splice(questionIndex, 1);
 
     acceptingAnswers = true;
 }
 
+// This function adds a listener for each choice, and increments score if user answers correctly
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return;
@@ -147,13 +154,15 @@ choices.forEach(choice => {
 
         selectedChoice.parentElement.classList.add(classToApply);
 
+        // This function sets the question change-over speed 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
-        }, 1000);
+        }, 500);
     });
 });
 
+// Increment score function
 incrementScore = num => {
     score += num;
     scoreText.innerText = score;

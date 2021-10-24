@@ -7,19 +7,19 @@
 
 ## Introduction 
 
-This website has been produced to provide a platform for a fun and educational game designed for agers 16+. It offers questions in a quiz format to test the users general knowledge.
+This website has been produced to provide a platform for a fun and educational game designed for ages 16+. It offers questions in a quiz format to test the user's general knowledge.
 
 In addition to the home page this website also features:
 - The 'Quiz' page
 - A 'Instructions section'
 - A 'High Scores' page
 
-The business goals of the website are:
+The business goals of the website is:
 1. To provide an educational learning platform for people aged 16+.
 2. To provide engaging content so that users enjoy using this quiz.
 3. To create an easy to navigate website to ensure that it is user friendly.
 
-The user goals of this website are:
+The user goals of this website is:
 1. To gain general knowledge.
 2. To test my general knowledge using the quiz.
 3. To improve my previous scores & therefore my overall knowledge.
@@ -55,12 +55,12 @@ To achieve the desired user and business goals this website will include the fol
 - A `H1` animated heading
 - Question counter
 - A score count 
-- Quiz qustions 
+- Quiz questions
 - 4 answer options 
 
 4. End of quiz page:
 - A `H1` animated heading 
-- Form to submit name and high score
+- Form to submit a name and high score
 - Control buttons
 
 5. High Scores page:
@@ -69,7 +69,7 @@ To achieve the desired user and business goals this website will include the fol
 - Go Home button 
 
 ### Structure
-This is a multi-page website to keep the amount of information on each page limited and easy to digest; the rules, game and high scores are all separated so that any one using the website can find what they want easily.
+This is a multi-page website to keep the amount of information on each page limited and easy to digest; the rules, game and high scores are all separated so that anyone using the website can find what they want easily.
 Each page is designed with simplicity in mind, with a H1 element that returns the user home and the relevant content centred below; this simplicity will allow for users to feel comfortable using and navigating each page. 
 The quiz itself has a question, and four possible answers to pick from. This layout will be responsive so that it isn't too squashed when being viewed on a smaller screen.
 
@@ -87,10 +87,10 @@ The quiz itself has a question, and four possible answers to pick from. This lay
 [View wireframes here](assets/readme-files/high-scores.png) 
 
 
-I made a few changes to the design post creating the wireframes. These include removal of the toggle menu as there wasn't many items included there and also collapsing the instructions into one section which can be found on the home page. 
+I made a few changes to the design post creating the wireframes. These include removal of the toggle menu as there weren't many items included there and also collapsing the instructions into one section which can be found on the home page. 
 
 ### Surface
-I chose to use a background colour of dark Slate Grey. For the title I chose a bright yellow to make sure this was clear to read and bold. For the subheadings and footer I chose orange to compliment the other colour's used. For any content text I chose the colour white to really make this stand out and easy to read. For any buttons, I chose to highlight these is red to draw the user to them, and the text within them yellow. I feel that this colour palet is very gender nutral, highlights the element's that are important to the user which makes navigating the website easier. 
+I chose to use a background colour of dark Slate Grey. For the title, I chose a bright yellow to make sure this was clear to read and bold. For the subheadings and footer, I chose orange to compliment the other colour's used. For any content text, I chose the colour white to make this stand out and easy to read. For any buttons, I chose to highlight these in red to draw the user to them, and the text within them yellow. I feel that this colour palette is quite gender-neutral, highlighting the element's that are important to the user which makes navigating the website easier. 
 
 The font used is `Oswald` and `Bungee`. The font `Bungee` is used as the main title and for the questions. The remaining elements are all in the font `Oswald`. 
 
@@ -109,7 +109,7 @@ All of the navigation buttons throughout the site are styled in the same way, us
 
 ### Home page
 #### *Animated Gif*
-The animated gif was implimented to create a fun and intriuging landing page. 
+The animated gif was implemented to create a fun and intriguing landing page. 
 
 #### *Animated heading*
 In addition to the gif I chose to animate the heading to continue that feeling of fun, I felt this would entice users over a static heading.
@@ -122,7 +122,7 @@ After removing my toggle menu it was apparent that the High Scores needs to be a
 
 ### Instructions
 #### *Instructions list*
-The list of rules is an `ul` element, it has been styled to remain in the centre of the screen to allow for better responsivity.
+The list of rules is a `ul` element, it has been styled to remain in the centre of the screen to allow for better responsivity.
 
 ### Quiz
 #### *Quiz elements*
@@ -177,11 +177,11 @@ I have used several technologies that have enabled this design to work:
 
 ### User Stories 
 1. **As a first time user, I want to be able to navigate my way easily throughout the website.**
-The navbar being placed right at the top of all pages allows the user to return to the home page at any point. To improve this in furture I would probably include an animation that points this action out to the user as some user's may not know to click the Pub Quiz heading to return home. 
+The navbar being placed right at the top of all pages allows the user to return to the home page at any point. To improve this in the future I would probably include an animation that points this action out to the user as some users may not know to click the Pub Quiz heading to return home. 
 ![](assets/images/return-home.gif)
 
-2. **As a first time user, I want to expland my general knowledge by playing a quiz game.**
-As part of the quiz design, I added visual cues so that the user will know when they have answered a question correctly or incorrectly. This instant feedback will allow them to learn as they play the quiz. In future I think it would be benefitial to the user if when they get the answer incorrect the correct answer is also highlighted. 
+2. **As a first time user, I want to expand my general knowledge by playing a quiz game.**
+As part of the quiz design, I added visual cues so that the user will know when they have answered a question correctly or incorrectly. This instant feedback will allow them to learn as they play the quiz. In future, I think it would be beneficial to the user if when they get the answer incorrect the correct answer is also highlighted. 
 ![](assets/images/visual-cues.gif)
 
 
@@ -201,15 +201,15 @@ I tested the quizzes functionality by 'playing' it myself, to ensure the user ex
 **404 error**
 On mobile, when the user completed the quiz and tried to save their name and score, instead of being redirected to the High Scores page it was coming up with a 404 error. I fixed this by removing the '/' before highscores.html in the game.html file. 
 
-**title underline** 
-On mobile and desktop there was a small line between Pub and Quiz in my heading. I resolved this by setting the text-decoration to none in my CSS. 
+**Title underline** 
+On mobile and desktop, there was a small line between Pub and Quiz in my heading. I resolved this by setting the text-decoration to none in my CSS. 
 
-**gif styling on tablet** 
-On tablet view, sometimes the gif on the home page gets pushed to the side and isn't centrally aligned. This is an ongoing issue which I hope to resolve in the future. 
+**Gif styling on tablet** 
+On tablet view, sometimes the gif on the home page gets pushed to the side and isn't centrally aligned. This is an ongoing issue that I hope to resolve in the future. 
 
 
 ### Validation: HTML, CSS and JavaScript
-Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code, initially there were errors as you can see below:
+Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code. Initially there were errors as you can see below:
 ![](assets/images/jshint-errors.png)
 
 However, I implemented all changes to ensure my code passed with no errors:
@@ -294,4 +294,4 @@ I would like to thank my course mentor Sandeep Aggarwal for his support and guid
 
 ## Notes 
 
-As I recieved my feedback for my P1 after starting this project I have not been able to implement the advice given by the assessor throughout my project. Please note this when looking at my commits. I am aware that some are not as descriptive as they should be. I have tried to be more explanatory going forward. Thank you! 
+As I received my feedback for my P1 after starting this project I have not been able to implement the advice given by the assessor throughout my project. Please note this when looking at my commits. I am aware that some are not as descriptive as they should be. I have tried to be more explanatory going forward. Thank you! 

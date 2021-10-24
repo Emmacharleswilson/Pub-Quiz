@@ -163,6 +163,8 @@ choices.forEach(choice => {
 });
 
 // Increment score function
+let incrementScore;
+
 incrementScore = num => {
     score += num;
     scoreText.innerText = score;

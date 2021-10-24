@@ -6,7 +6,10 @@
 var textWrapper = document.querySelector('.ml6 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-//Loop to display pub quiz heading on a continual loop with delays set for each letter and a fade out effect
+/* Loop to display pub quiz heading on a continual loop with delays 
+set for each letter and a fade out effect */
+let anime;
+
 anime.timeline({
     loop: true
   })

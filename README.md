@@ -204,6 +204,9 @@ On mobile, when the user completed the quiz and tried to save their name and sco
 **title underline** 
 On mobile and desktop there was a small line between Pub and Quiz in my heading. I resolved this by setting the text-decoration to none in my CSS. 
 
+**gif styling on tablet** 
+On tablet view, sometimes the gif on the home page gets pushed to the side and isn't centrally aligned. This is an ongoing issue which I hope to resolve in the future. 
+
 
 ### Validation: HTML, CSS and JavaScript
 Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code, initially there were errors as you can see below:
@@ -274,7 +277,7 @@ I obtained code from the following resources:
 
 [Animated heading code](https://tobiasahlin.com/moving-letters/#6)
 
-[Animated fade effect on Gif](https://www.geeksforgeeks.orghow-to-add-fade-in-effect-using-pure-javascript/)
+[Animated fade effect on Gif](https://www.geeksforgeeks.org/how-to-add-fade-in-effect-using-pure-javascript/)
 
 The below sources were used for content: 
 
@@ -287,7 +290,7 @@ The below sources were used for content:
 ---
 ## Acknowledgements
 
-I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project and my fellow students Harry Dhillon and Daisy Gunn for their support & feedback.
+I would like to thank my course mentor Sandeep Aggarwal for his support and guidance throughout the course of the project and my fellow students Harry Dhillon and Daisy Gunn for their support & feedback.
 
 ## Notes 
 

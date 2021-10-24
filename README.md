@@ -216,7 +216,11 @@ Furthermore, I used Jshint to ensure that there were no errors within any of my 
 ![](assets/images/jshint-errors.png)
 
 However, I implemented all changes to ensure my code passed with no errors:
-![](assets/documents/images/jshint_no_errors.png)
+![](assets/images/gamejs.png)
+![](assets/images/titlejs.png)
+![](assets/images/gifjs.png)
+![](assets/images/endjs.png)
+![](assets/images/highscoresjs.png)
 
 In addition to Jshint, I used Jigsaw to validate my HTML and CSS which pass with no errors:
 ![](assets/images/index.png)

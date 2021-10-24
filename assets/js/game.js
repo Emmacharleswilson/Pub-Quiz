@@ -1,5 +1,7 @@
 /*jshint esversion: 6 */
 
+// code sourced from (https://www.youtube.com/watch?v=f4fB9Xg2JEY) 
+
 // Question, Choices, Progress and Score variables 
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));

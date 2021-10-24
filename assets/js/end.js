@@ -1,5 +1,7 @@
 /*jshint esversion: 6 */
 
+// code sourced from (https://www.youtube.com/watch?v=f4fB9Xg2JEY) 
+
 // Username and Score variables 
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');

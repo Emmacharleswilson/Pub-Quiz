@@ -1,10 +1,8 @@
 /*jshint esversion: 6 */
 
-/* This document was partially created using a tutorial
- on geeksforgeeks.org, a link can be found in the README.md*/
+// code sourced from (https://www.geeksforgeeks.org/how-to-add-fade-in-effect-using-pure-javascript/)
 
 // fade in effect on gif
-
 window.onload = fadeIn;
 
 function fadeIn() {

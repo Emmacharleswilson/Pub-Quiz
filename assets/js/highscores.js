@@ -1,6 +1,8 @@
 /*jshint esversion: 6 */
-// Highscores variables 
 
+// code sourced from (https://www.youtube.com/watch?v=f4fB9Xg2JEY) 
+
+// Highscores variables 
 const highScoresList = document.querySelector('#highScoresList');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 

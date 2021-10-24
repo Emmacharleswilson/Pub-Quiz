@@ -15,6 +15,8 @@ username.addEventListener('keyup', () => {
 });
 
 // This function saves and stores users highscores 
+let saveHighScore;
+
 saveHighScore = e => {
     e.preventDefault();
 

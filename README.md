@@ -170,14 +170,8 @@ I have used several technologies that have enabled this design to work:
     - Used to validate all HTML code written and used in this webpage.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Used to validate all CSS code written and used in this webpage.
-- [Freeformatter CSS Beautify](https://www.freeformatter.com/css-beautifier.html)
-    - Used to accurately format my CSS code.
-- [Freeformatter HTML Formatter](https://www.freeformatter.com/html-formatter.html)
-    - Used to accurately format my HTML code.
 - [AmIResponsive](http://ami.responsivedesign.is/)
     - Used to generate responsive image used in README file.
-- [Wave](https://wave.webaim.org/)
-    - Used to test the accessibility of the website.
 ---
 ## Testing
 
@@ -294,3 +288,7 @@ The below sources were used for content:
 ## Acknowledgements
 
 I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project and my fellow students Harry Dhillon and Daisy Gunn for their support & feedback.
+
+## Notes 
+
+As I recieved my feedback for my P1 after starting this project I have not been able to implement the advice given by the assessor throughout my project. Please note this when looking at my commits. I am aware that some are not as descriptive as they should be. I have tried to be more explanatory going forward. Thank you! 

@@ -1,4 +1,8 @@
 /*jshint esversion: 6 */
+
+/* This document was partially created using a tutorial
+ on geeksforgeeks.org, a link can be found in the README.md*/
+
 // fade in effect on gif
 
 window.onload = fadeIn;

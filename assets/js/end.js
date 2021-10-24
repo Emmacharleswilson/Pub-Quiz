@@ -16,7 +16,7 @@ username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
 
-// This function saves and stores users highscores in order of highest to lowest 
+// This function saves and stores users highscores 
 saveHighScore = e => {
     e.preventDefault();
 
@@ -25,14 +25,16 @@ saveHighScore = e => {
         name: username.value
     };
 
+    // Adds latest score and user name to the high scores array
     highScores.push(score);
 
+    // Sorts scores highest to lowest
     highScores.sort((a, b) => {
         return b.score - a.score;
     });
-
+    // Only top 5 scores appear 
     highScores.splice(5);
-
+    // Stores scores in local storage
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('highscores.html');
 };

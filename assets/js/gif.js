@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-/** fade in effect on gif */
+// fade in effect on gif
 
 window.onload = fadeIn;
 

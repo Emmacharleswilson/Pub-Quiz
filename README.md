@@ -223,6 +223,7 @@ In addition to Jshint, I used Jigsaw to validate my HTML and CSS which pass with
 ![](assets/images/quiz.png)
 ![](assets/images/highscores.png)
 ![](assets/images/end.png)
+![](assets/images/jigsaw-validated.png)
 
 In addition to testing that I conducted, I got my friends, family & fellow students to test the website on their phones/laptops/tablets/desktops and provide feedback on anything they felt didn't work or look right, this enabled me to debug any issues that I might not have otherwise found.
 

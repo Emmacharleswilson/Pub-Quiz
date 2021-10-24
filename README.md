@@ -266,37 +266,31 @@ Cloning your repository will allow you to download a local version of the reposi
 6. Press enter and your local clone will be created.
 ---
 ## Credits
-I have used several resources to produce this website, where code has been used found from another source this is credited as a comment within the HTML, CSS and JS files.
+I have used several resources to produce this website.
 
 The following websites/articles were used for research and guidance:
 
 [Stack Overflow](https://stackoverflow.com/)
 
-[JavaScript do/while loop](https://www.javascripttutorial.net/javascript-do-while/)
-
-[Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-
-[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+[W3Schools](https://www.w3schools.com/)
 
 I obtained code from the following resources:
 
-[Blinking Game Over heading](https://www.youtube.com/watch?v=9iDm3QiIEzU)
-
-[Responsive Navbar](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci)
-
-[Vanilla JavaScript quiz tutorial, used to save high scores, increment score and question count](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+[Vanilla JavaScript quiz tutorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 
 [Animated heading code](https://tobiasahlin.com/moving-letters/#6)
 
-[Planetary JS, used for animated & interactive globe](http://planetaryjs.com/examples/rotating.html)
+[Animated fade effect on Gif](https://www.geeksforgeeks.orghow-to-add-fade-in-effect-using-pure-javascript/)
 
 The below sources were used for content: 
 
-[Countries and their capital cities](https://www.countries-ofthe-world.com/capitals-of-the-world.html)
+[Gif on Home Page](https://gfycat.com/@gfycatstickers)
 
-[Sound effects obtained from Zapsplat](https://www.zapsplat.com)
+[Quiz questions](https://www.radiotimes.com)
+
+[Instructions](https://www.mobygames.com/game/dvd-player/pub-quiz-volume-1/screenshots/gameShotId,905437/)
 
 ---
 ## Acknowledgements
 
-I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project and my fellow students Harry Dhillon and Jack Crosbie for their support & feedback.
+I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project and my fellow students Harry Dhillon and Daisy Gunn for their support & feedback.

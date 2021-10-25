@@ -1,6 +1,6 @@
 # Pub Quiz
 
-![](assets/images/amiresponsive.png)
+![](assets/readme-files/amiresponsive.png)
 
 [View the website here](https://emmacharleswilson.github.io/Pub-Quiz/)
 
@@ -178,20 +178,20 @@ I have used several technologies that have enabled this design to work:
 ### User Stories 
 1. **As a first time user, I want to be able to navigate my way easily throughout the website.**
 The navbar being placed right at the top of all pages allows the user to return to the home page at any point. To improve this in the future I would probably include an animation that points this action out to the user as some users may not know to click the Pub Quiz heading to return home. 
-![](assets/images/return-home.gif)
+![](assets/readme-files/return-home.gif)
 
 2. **As a first time user, I want to expand my general knowledge by playing a quiz game.**
 As part of the quiz design, I added visual cues so that the user will know when they have answered a question correctly or incorrectly. This instant feedback will allow them to learn as they play the quiz. In future, I think it would be beneficial to the user if when they get the answer incorrect the correct answer is also highlighted. 
-![](assets/images/visual-cues.gif)
+![](assets/readme-files/visual-cues.gif)
 
 
 3. **As a recurring user, I want to track my scores to see if I've made the high scores leaderboard.**
 Upon completing the quiz the user is taken to the end page, where they are able to save their score against their username, the top 5 scores saved to local storage are then displayed on the high scores page:
-![](assets/images/highscores.gif)
+![](assets/readme-files/highscores.gif)
 
 ### Lighthouse
 I used the Lighthouse report on Google Dev Tools to test my websites performance, accessibility and best practices. The results are as followed: 
-![](assets/images/lighthouse-report.png)
+![](assets/readme-files/lighthouse-report.png)
 
 ### Known bugs and fixes
 Throughout the entire project, I have used Google Chrome Developer Tools to debug any issues with styling and alignment; this tool enabled me to change things and see the effect this had immediately. The use of the console whilst in dev tools was also incredibly helpful as I was able to utilise this to test my JavaScript code, using `console.log()` to check that my functions were being called correctly and that the desired information was going to be displayed. This was pivotal in designing the quiz as I needed to have access to the information of the various elements in order to be able to programme the quiz correctly.
@@ -210,21 +210,21 @@ On tablet view, sometimes the gif on the home page gets pushed to the side and i
 
 ### Validation: HTML, CSS and JavaScript
 Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code. Initially there were errors as you can see below:
-![](assets/images/jshint-errors.png)
+![](assets/readme-files/jshint-errors.png)
 
 However, I implemented all changes to ensure my code passed with no errors:
-![](assets/images/gamejs.png)
-![](assets/images/titlejs.png)
-![](assets/images/gifjs.png)
-![](assets/images/endjs.png)
-![](assets/images/highscoresjs.png)
+![](assets/readme-files/gamejs.png)
+![](assets/readme-files/titlejs.png)
+![](assets/readme-files/gifjs.png)
+![](assets/readme-files/endjs.png)
+![](assets/readme-files/highscoresjs.png)
 
 In addition to Jshint, I used Jigsaw to validate my HTML and CSS which pass with no errors:
-![](assets/images/index.png)
-![](assets/images/quiz.png)
-![](assets/images/highscores.png)
-![](assets/images/end.png)
-![](assets/images/jigsaw-validated.png)
+![](assets/readme-files/index.png)
+![](assets/readme-files/quiz.png)
+![](assets/readme-files/highscores.png)
+![](assets/readme-files/end.png)
+![](assets/readme-files/jigsaw-validated.png)
 
 In addition to testing that I conducted, I got my friends, family & fellow students to test the website on their phones/laptops/tablets/desktops and provide feedback on anything they felt didn't work or look right, this enabled me to debug any issues that I might not have otherwise found.
 

@@ -204,6 +204,9 @@ On mobile, when the user completed the quiz and tried to save their name and sco
 **Title underline** 
 On mobile and desktop, there was a small line between Pub and Quiz in my heading. I resolved this by setting the text-decoration to none in my CSS. 
 
+**Input field for user name**
+The user was able to enter blank spaces and save that as there name. To fix this, I had help from a fellow peer (Harry Dhillon) who shared this piece of code `input type="text" name="username" placeholder="Please enter your name!" id="username" pattern="[a-zA-Z0-9]{5,15}" aria-label="Add your name for the high-scores leaderboard!" required` which fixed the error. 
+
 **Gif styling on tablet** 
 On tablet view, sometimes the gif on the home page gets pushed to the side and isn't centrally aligned. This is an ongoing issue that I hope to resolve in the future. 
 

@@ -3,7 +3,6 @@
 // code sourced from (https://www.geeksforgeeks.org/how-to-add-fade-in-effect-using-pure-javascript/)
 
 // fade in effect on gif
-window.onload = fadeIn;
 
 function fadeIn() {
     var fade = document.getElementById("gif");
@@ -18,3 +17,5 @@ function fadeIn() {
         }
     }, 100);
 }
+
+window.onload = fadeIn;

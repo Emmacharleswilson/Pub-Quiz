@@ -76,16 +76,16 @@ The quiz itself has a question, and four possible answers to pick from. This lay
 
 ### Skeleton
 `Home Page`
-[View wireframes here](assets/readme-files/home-page.png) 
+[View wireframes here](assets/readme-files/wireframes/home-page.png) 
 
 `Instructions`
-[View wireframes here](assets/readme-files/instructions.png) 
+[View wireframes here](assets/readme-files/wireframes/instructions.png) 
 
 `Quiz` 
-[View wireframes here](assets/readme-files/quiz.png) 
+[View wireframes here](assets/readme-files/wireframes/quiz.png) 
 
 `High Scores page`
-[View wireframes here](assets/readme-files/high-scores.png) 
+[View wireframes here](assets/readme-files/wireframes/high-scores.png) 
 
 
 I made a few changes to the design post creating the wireframes. These include removal of the toggle menu as there weren't many items included there and also collapsing the instructions into one section which can be found on the home page. 
@@ -179,20 +179,20 @@ I have used several technologies that have enabled this design to work:
 ### User Stories 
 1. **As a first time user, I want to be able to navigate my way easily throughout the website.**
 The navbar being placed right at the top of all pages allows the user to return to the home page at any point. To improve this in the future I would probably include an animation that points this action out to the user as some users may not know to click the Pub Quiz heading to return home. 
-![](assets/readme-files/return-home.gif)
+![](assets/readme-files/testing/return-home.gif)
 
 2. **As a first time user, I want to expand my general knowledge by playing a quiz game.**
 As part of the quiz design, I added visual cues so that the user will know when they have answered a question correctly or incorrectly. This instant feedback will allow them to learn as they play the quiz. In future, I think it would be beneficial to the user if when they get the answer incorrect the correct answer is also highlighted. 
-![](assets/readme-files/visual-cues.gif)
+![](assets/readme-files/testing/visual-cues.gif)
 
 
 3. **As a recurring user, I want to track my scores to see if I've made the high scores leaderboard.**
 Upon completing the quiz the user is taken to the end page, where they are able to save their score against their username, the top 5 scores saved to local storage are then displayed on the high scores page:
-![](assets/readme-files/highscores.gif)
+![](assets/readme-files/testing/highscores.gif)
 
 ### Lighthouse
 I used the Lighthouse report on Google Dev Tools to test my websites performance, accessibility and best practices. The results are as followed: 
-![](assets/readme-files/lighthouse-report.png)
+![](assets/readme-files/validators/lighthouse-report.png)
 
 I also tested my website in Firefox, Google and Safari to ensure that my website worked on most browsers without any issues.
 
@@ -216,21 +216,21 @@ On tablet view, sometimes the gif on the home page gets pushed to the side and i
 
 ### Validation: HTML, CSS and JavaScript
 Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code. Initially there were errors as you can see below:
-![](assets/readme-files/jshint-errors.png)
+![](assets/readme-files/validators/jshint-errors.png)
 
 However, I implemented all changes to ensure my code passed with no errors:
-![](assets/readme-files/gamejs.png)
-![](assets/readme-files/titlejs.png)
-![](assets/readme-files/gifjs.png)
-![](assets/readme-files/endjs.png)
-![](assets/readme-files/highscoresjs.png)
+![](assets/readme-files/validators/gamejs.png)
+![](assets/readme-files/validators/titlejs.png)
+![](assets/readme-files/validators/gifjs.png)
+![](assets/readme-files/validators/endjs.png)
+![](assets/readme-files/validators/highscoresjs.png)
 
 In addition to Jshint, I used Jigsaw to validate my HTML and CSS which pass with no errors:
-![](assets/readme-files/index.png)
-![](assets/readme-files/quiz.png)
-![](assets/readme-files/highscores.png)
-![](assets/readme-files/end.png)
-![](assets/readme-files/jigsaw-validated.png)
+![](assets/readme-files/validators/index.png)
+![](assets/readme-files/validators/quiz.png)
+![](assets/readme-files/validators/highscores.png)
+![](assets/readme-files/validators/end.png)
+![](assets/readme-files/validators/jigsaw-validated.png)
 
 In addition to testing that I conducted, I got my friends, family & fellow students to test the website on their phones/laptops/tablets/desktops and provide feedback on anything they felt didn't work or look right, this enabled me to debug any issues that I might not have otherwise found.
 

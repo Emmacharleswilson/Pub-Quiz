@@ -213,6 +213,9 @@ The user was able to enter blank spaces and save that as there name. To fix this
 **Gif styling on tablet** 
 On tablet view, sometimes the gif on the home page gets pushed to the side and isn't centrally aligned. This is an ongoing issue that I hope to resolve in the future. 
 
+**JShint warning-undefined variable**
+ I had a warning when validating my JavaScript code using JSHint. In my title.js I had an undefined variable (anime). To fix this I used `/* globals anime */` comment to ignore that variable. 
+
 
 ### Validation: HTML, CSS and JavaScript
 Furthermore, I used Jshint to ensure that there were no errors within any of my JavaScript code. Initially there were errors as you can see below:

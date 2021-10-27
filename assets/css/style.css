@@ -4,12 +4,12 @@
     background-color: rgb(48, 48, 48);
 }
 
-.Site {
+.site {
     min-height: 100vh;
     flex-direction: column;
 }
 
-.Site-content {
+.site-content {
     flex: 1;
 }
 
@@ -34,7 +34,7 @@ span {
     }
 }
 
-/* title tester **/
+/* title **/
 
 .ml6 {
     position: relative;

@@ -18,6 +18,7 @@ username.addEventListener('keyup', () => {
 
 // This function saves and stores users highscores 
 let saveHighScore;
+// Defined variable like this to solve jshint error
 
 saveHighScore = e => {
     e.preventDefault();

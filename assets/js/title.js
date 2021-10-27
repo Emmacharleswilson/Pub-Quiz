@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+/* globals anime */
 // title animation 
 // code sourced from (https://tobiasahlin.com/moving-letters/#6) 
 // Wrap every letter in a span 

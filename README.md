@@ -48,6 +48,7 @@ To achieve the desired user and business goals this website will include the fol
 1. A landing page with:
 - A `H1` animated heading
 - An animated picture
+- An instructions `ul`
 - Start game button
 - A High Scores button 
 
@@ -58,12 +59,12 @@ To achieve the desired user and business goals this website will include the fol
 - Quiz questions
 - 4 answer options 
 
-4. End of quiz page:
+3. End of quiz page:
 - A `H1` animated heading 
 - Form to submit a name and high score
 - Control buttons
 
-5. High Scores page:
+4. High Scores page:
 - A `H1` animated heading
 - List of top 5 high scores
 - Go Home button 
@@ -193,6 +194,8 @@ Upon completing the quiz the user is taken to the end page, where they are able 
 I used the Lighthouse report on Google Dev Tools to test my websites performance, accessibility and best practices. The results are as followed: 
 ![](assets/readme-files/lighthouse-report.png)
 
+I also tested my website in Firefox, Google and Safari to ensure that my website worked on most browsers without any issues.
+
 ### Known bugs and fixes
 Throughout the entire project, I have used Google Chrome Developer Tools to debug any issues with styling and alignment; this tool enabled me to change things and see the effect this had immediately. The use of the console whilst in dev tools was also incredibly helpful as I was able to utilise this to test my JavaScript code, using `console.log()` to check that my functions were being called correctly and that the desired information was going to be displayed. This was pivotal in designing the quiz as I needed to have access to the information of the various elements in order to be able to programme the quiz correctly.
 
@@ -241,7 +244,7 @@ I deployed this website by using GitPages and following the below steps:
 2. In your Repository section, select the project repository that you want to deploy
 3. In the menu located at the top of this section, click 'Settings'
 4. Select 'Pages' on the left-hand menu - this is around halfway down
-5. In the source section, select branch 'Master' and save
+5. In the source section, select branch 'Main' and save
 6. The page is then given a site URL which you will see above the source section, it will look like the following:
 
 Please note it can take a while for this link to become fully active.
